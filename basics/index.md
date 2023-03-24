@@ -82,4 +82,4 @@ when a dashboard-view is being displayed).
 A lookup dataset is a mapping dataset that specifies the mapping of 
 existing column values from a (time-series) dataset to a new column. 
 Lookup datasets can currently only be added via a csv import. 
-[See this FAQ on how to create a lookup dataset.](https://docs.google.com/document/d/1MLp3H8wR96DU6Os1k1fL6aZvSQTKbAYIrNmRTiW51HQ/edit#heading=h.3sp3509u29n6)
+[See this FAQ on how to create a lookup dataset.](/data-import/index.md#csv-file-import)

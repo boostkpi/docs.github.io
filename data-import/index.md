@@ -22,7 +22,7 @@ analysis on the last month's data, you can use “one-off” to pull the result 
 
 A “**scheduled**” import is for data that is periodically updated, say every hour or every day. BoostKPI 
 can pull such data at scheduled intervals. It also automatically updates the date range to pull the 
-most recent data. See [Importing data into BoostKPI](https://docs.google.com/document/d/1MLp3H8wR96DU6Os1k1fL6aZvSQTKbAYIrNmRTiW51HQ) for details.
+most recent data. See [Importing data into BoostKPI](/data-import/guide/index.md#importing-data-into-boostkpi) for details.
 
 Many of our users start with one-off imports to do some ad-hoc analysis. They then iteratively add or 
 remove dimensions and repeat the analysis. Once they are happy with the data-set, they can set up a scheduled import.
@@ -47,7 +47,7 @@ dataset, which can then be joined with an existing time-series dataset.
 
 ## Import process
 
-The document [Importing data into BoostKPI](https://docs.google.com/document/d/1MLp3H8wR96DU6Os1k1fL6aZvSQTKbAYIrNmRTiW51HQ/edit) 
+The document [Importing data into BoostKPI](/data-import/guide/index.md#importing-data-into-boostkpi) 
 provides more information about the import process.
 
 ## Refreshing already imported data (scheduled)

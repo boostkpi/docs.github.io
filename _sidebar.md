@@ -40,6 +40,11 @@
     - [Types of supported csv imports](/data-import/index.md#types-of-supported-csv-imports)
   - [Import process](/data-import/index.md#import-process)
   - [Refreshing already imported data](/data-import/index.md#refreshing-already-imported-data--scheduled-)
+  - [Data import step-by-step guide](/data-import/guide/index.md)
+    - [Importing data into BoostKPI](/data-import/guide/index.md#importing-data-into-boostkpi)
+    - [Importing tips](/data-import/guide/index.md#importing-tips)
+    - [Data modeling tips](/data-import/guide/index.md#data-modeling-tips)
+    - [After importing](/data-import/guide/index.md#after-importing)
 
 - Alerts
   - [What are alerts](/alerts/index.md#what-are-alerts)
