@@ -1,4 +1,4 @@
-- [Main Page](/)
+- [BoostKPI docs](/)
 - [FAQ](/README.md#faq)
 
 - BoostKPI Overview
