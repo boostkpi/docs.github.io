@@ -1,3 +1,11 @@
+## March 2023
+- Updated the size of a cell in the heatmap to accurately reflect its contribution. Updated the size of the OTHERS cell accordingly.
+- For derived KPIs, the normalized color values now sum to zero, like non-derived KPIs.
+- Updated the FAQ and release notes to use this website instead of a plain google doc.
+- During import, sanitized column names, allowed the use of reserved SQL words, and allowed uploading the same CSV filename many times.
+- Added UI for scheduling backfill.
+- Fixed the display issue in the pivot tab for KPIs marked as inverse.
+
 ## February 2023
 - Updated the schema page. Users can annotate datasets as well as the dimensions in the dataset.
 - Added ability to search and filter datasets.
