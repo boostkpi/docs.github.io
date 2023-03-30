@@ -16,6 +16,7 @@ BoostKPI can connect to many different data sources that support a SQL interface
 - Snowflake
 - Trino
 - Vertica
+
 We just require read only access to the right table in the data source. For each integration, we use SQL to access the underlying data.
 
 ![Data sources list: image](../images/data-sources-list.png)
