@@ -61,11 +61,31 @@ You can get a tour by clicking the ? icon when you are on the investigate-page.
 
 ## Heatmap interpretation
 
-The default option is to color the heatmap by “change in contribution”. In that case, 
-the changes are normalized against the average change. If the box representing a dimension
-value is colored red, it means it grew slower than average (even though it might have grown
-compared to the baseline time period).
+The default option is to color the heatmap by “percentage change". If a cell is
+colored red, it means the KPI value decreased. If it is colored blue, the KPI
+value has increased. By default, the cell is sized by the contribution of the
+dimension value to the KPI. In the example below, the revenue for each channel
+ios, android, and web increased; so each cell is colored blue. Oval 1 and oval
+2 in the screenshot below show the dropdown options to control the color and size
+of the heatmap. Hovering over a cell shows the KPI value for the dimension and
+the overall values (for example, REI_Coop revenue grew by 176.9%, which is
+shown in the dimension row of the hover, as in oval 3). Oval 4 shows the cell
+marked "OTHER" -- it represents all the dimension values that are not shown
+individually in the heatmap. It is especially useful if the dimension has more
+than a few dozen values. 
+
+![Heatmap colored by percentage change](../../images/heatmap_percentage_help.png)   
+
+You can also view the changes normalized against the average change by
+selecting "change in contribution” (Change the dropdown in Oval 1).  If the box
+representing a dimension value is colored red, it means it grew slower than
+average (even though it might have grown compared to the baseline time period).
 
 Clicking a cell sets the correct filter and regenerates the heatmap. 
 
 ![Heatmap image](../../images/heatmap.png)
+
+
+If a KPI is a ratio or a percentage, the heatmap can still be used in the same
+way. To learn more about the details of how the heatmap works in such cases,
+[look at our blog post on this topic](https://blog.boostkpi.com/Derived-metric-heatmap/).
