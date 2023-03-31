@@ -12,9 +12,9 @@
 
 ### Key features
 
-The dashboard has 4 key areas:
-##### Investigate
-Use this tab to investigate the root cause of any change in KPIs compared to any baseline. Investigations can then be saved as “snapshots” and shared amongst team members.
+The application has 4 key areas:
+##### Dashboard
+Use this tab to customize and access your "dashboard-views", investigate the root cause of any change in KPIs compared to any baseline, and save any investigations as "snapshots". “Snapshots” can be shared amongst team members.
 ##### Anomalies 
 Use this tab to view anomalies that resulted from any of your configured alerts. These anomalies, besides being routed to users or to slack/teams, can also be viewed on the dashboard.
 ##### Alerts
