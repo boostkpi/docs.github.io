@@ -74,7 +74,7 @@ marked "OTHER" -- it represents all the dimension values that are not shown
 individually in the heatmap. It is especially useful if the dimension has more
 than a few dozen values. 
 
-![Heatmap colored by percentage change](../../images/heatmap_percentage_help.png)   
+![Heatmap colored by percentage change](../../images/heatmap_percentage_help.jpg)   
 
 You can also view the changes normalized against the average change by
 selecting "change in contribution” (Change the dropdown in Oval 1).  If the box
