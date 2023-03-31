@@ -18,7 +18,7 @@ Some other possible values of baseline are:
 ##### 5 days prior
 The baseline period is set to the investigation period shifted 5 days prior. 
 In the above example, it will be **Mar 13 - Mar 27**. Similarly, ‘**10 days prior**’ means 
-that the investigation period is shifted by 10 days. Previously, the tool used **do5d** to refer to it.
+that the investigation period is shifted by 10 days. Previously, the tool used **do5d** to refer to '**5 days prior**'.
 
 ##### 1 week prior
 The baseline period is set to the investigation period is shifted a week earlier. 
