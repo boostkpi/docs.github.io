@@ -35,7 +35,7 @@
 - Data Import
   - [Supported data sources](/data-import/index.md#supported-data-sources)
   - [BigQuery data import](/data-import/index.md#bigquery-data-import)
-  - [Granting BoostKPI access to your BigQuery tables[(/data-import/index.md?granting-boostkpi-access-to-your-bigquery-tables)]
+  - [Granting BoostKPI access to your BigQuery tables](/data-import/index.md?granting-boostkpi-access-to-your-bigquery-tables)
   - [IP addresses white-listing](/data-import/index.md#ip-address-white-listing)
   - [Scheduled vs. one-off imports](/data-import/index.md#scheduled-vs-one-off-imports)
   - [CSV file import](/data-import/index.md#csv-file-import)
