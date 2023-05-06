@@ -1,3 +1,8 @@
+## April 2023
+- Launched an improved overview table. Now supports sorting based on KPI values and filtering based on dimension names. Implemented in React.
+- Implemented a JSON endpoint to query anomalies.
+- Moved the root-cause KPI table to react.  Added KPI search for the KPI root-cause table.
+
 ## March 2023
 - Updated the size of a cell in the heatmap to accurately reflect its contribution. Updated the size of the OTHERS cell accordingly.
 - For derived KPIs, the normalized color values now sum to zero, like non-derived KPIs.
