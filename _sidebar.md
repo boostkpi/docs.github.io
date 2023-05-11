@@ -55,6 +55,9 @@
   - [Alerts based on target](/alerts/index.md#alerts-based-on-target)
   - [Alerts routing to specific email addresses](/alerts/index.md#alerts-routing-to-specific-email-address)
 
+- Anomaly API
+  - [How can I fetch anomalies through the API?](/api/index.md#fetch-anomalies)
+
 - Troubleshooting
   - [Blank/Incomplete page](/troubleshooting/index.md#blank-page) 
 

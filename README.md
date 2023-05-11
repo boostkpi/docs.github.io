@@ -54,6 +54,9 @@
 - [Do you support alerts based on targets? For example,…](/alerts/index.md#alerts-based-on-target)
 - [I want some alerts being routed to one group email address…](/alerts/index.md#alerts-routing-to-specific-email-address)
 
+### API
+- [How can I fetch anomalies through the API?](/api/index.md#fetch-anomalies)
+
 ### Miscellaneous
 - [I have a different question that is not covered here.](/miscellaneous/index.md#i-have-a-different-question-that-is-not-covered-here)
 - [How do I change the charts that are displayed in my…](/miscellaneous/index.md#how-do-i-change-the-charts-that-are-displayed-in-my-dashboard-view)
