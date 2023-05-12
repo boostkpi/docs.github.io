@@ -53,4 +53,13 @@ Anomalies are returned grouped by detection in the following json format:
 ]
 ```
 
-To authenticate to BoostKPI, grab your te_auth cookie while logged into dashboard.boostkpi.com and include it with any requests.
+To authenticate to BoostKPI, grab your te_auth cookie while logged into dashboard.boostkpi.com and include it with any requests. See screenshot below on how to grab the te_auth cookie.
+![Finding your auth cookie](../../images/auth_cookie.jpg) 
+
+With the cookie set, here is an example request using the tool curl that can be executed on a Mac Terminal.
+
+```
+curl --cookie te_auth=665ceb3c7272adddfa9f54fd603a6ebed0033a4b5b8391344ab47e756dd59935 https://dashboard.boostkpi.com/anomalies/json\?anomalyWindowStart\=1683717689000\&anomalyWindowEnd\=1683917689000
+```
+
+
