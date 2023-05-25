@@ -119,9 +119,9 @@ The endpoint will respond with data in the following json format:
 }
 ```
 
-## How can I fetch the breakdown or heatmap data through the API?
+## How can I fetch the overview or heatmap data through the API?
 
-The data in the breakdown or heatmap table can be fetched by a POST request to 'dashboard.boostkpi.com/rootcause/metric/breakdown'.
+The data in the overview or heatmap table can be fetched by a POST request to 'dashboard.boostkpi.com/rootcause/metric/breakdown'.
 
 The request should have a json body containing:
 
