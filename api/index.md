@@ -147,7 +147,7 @@ The request should have a json body containing:
   },
   start: 1682899200000, // The inclusive start of the investigation range as a timestamp in milliseconds, this timestamp is May 1st, 2023
   end: 1683417600000, // The exclusive end of the investigation range as a timestamp in milliseconds, this timestamp is May 7th, 2023
-  offset: "wo1w", // A string representing the offset for comparison: "wo1w" to compare to the previous week, "mo3m" to compare to three months prior
+  offset: "wo1w", // A string representing the offset for comparison: "wo1w" to compare to the previous week, "mo3m" to compare to three months prior, "do1d" to compare to the previous day
   limit: 50 // The number of top dimension values to return for each dimension, values past the limit will be rolled up into other
 }
 ```
