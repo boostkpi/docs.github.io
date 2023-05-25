@@ -55,8 +55,11 @@
   - [Alerts based on target](/alerts/index.md#alerts-based-on-target)
   - [Alerts routing to specific email addresses](/alerts/index.md#alerts-routing-to-specific-email-address)
 
-- Anomaly API
+- API **(EXPERIMENTAL)**
   - [How can I fetch anomalies through the API?](/api/index.md#fetch-anomalies)
+  - [How can I fetch the drilldown data through the API?](/api/index.md#drilldown-data)
+  - [How can I fetch the overview or heatmap data through the API?](/api/index.md#overview-heatmap)
+  - [How do I authenticate when using the API?](/api/index.md#authenticate)
 
 - Troubleshooting
   - [Blank/Incomplete page](/troubleshooting/index.md#blank-page) 

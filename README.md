@@ -56,6 +56,9 @@
 
 ### API
 - [How can I fetch anomalies through the API?](/api/index.md#fetch-anomalies)
+- [How can I fetch the drilldown data through the API?](/api/index.md#drilldown-data)
+- [How can I fetch the overview or heatmap data through the API?](/api/index.md#overview-heatmap)
+- [How do I authenticate when using the API?](/api/index.md#authenticate)
 
 ### Miscellaneous
 - [I have a different question that is not covered here.](/miscellaneous/index.md#i-have-a-different-question-that-is-not-covered-here)
