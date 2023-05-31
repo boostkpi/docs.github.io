@@ -25,14 +25,20 @@ are example KPIs.
 You can add new datasets by clicking on the “Add dataset” button. You can then upload 
 a csv or setup a dataset as a result of a sql query. 
 
-If you no longer plan to use a dataset, you can click on “Edit dataset” and hit “Delete” to delete the dataset.
+If you no longer plan to use a dataset, you can click on “Edit dataset” (in the schemas tab) and hit “Delete” to delete the dataset.
+
+![Edit dataset: image](../images/edit-dataset.png)
 
 You can also use the search bar (above the list of datasets) to search for a specific dataset.
 
 
 ## Creating a derived KPI
 
-Create a derived KPI by clicking on the button below.
+Derived KPIs can be added to a dataset on the Schemas page by selecting the “Add derived KPI” button
+on the right hand side. In the menu that opens, you can either select a derived KPI to copy from an
+existing dataset or create a new one by dragging and dropping metric names.
+
+Currently BoostKPI only supports derived KPIs that are a ratio (of the form X / Y) or a percentage (of the form X*100/Y).
 
 ![Derived KPI button: image](../images/derived-kpi.png)
 
@@ -42,19 +48,19 @@ drag and drop.
 
 ![Derived KPI modal: image](../images/derived-kpi-modal.png)
 
-## Marking KPI as a cost metric
-
-##### Step 1
-
-![Inverse metric - step 1: image](../images/inverse-step-1.png)
-
-##### Step 2
-
-![Inverse metric - step 2: image](../images/inverse-step-2.png)
+## Marking KPI as Inverse (or a cost KPI)
+On the dataset’s Schemas page, KPIs can be marked as “Inverse”. This indicates that an increase in
+the KPI should be reflected as a bad change while a decrease should be reflected as a good change.
+When set, an inverse KPI will use red numbers for increases and blue numbers for decreases (the
+opposite coloring of normal KPIs). This is useful for interpreting change when viewing cost or spend
+metrics that you want to minimize.
 
 Marking a KPI as a cost metric reverses the colors in the heatmap, the 
-drilldown, and the alerts. Green is used if the KPI value decreases. 
-Examples of cost metrics are CPC (cost per click) or CPL (cost per lead).
+drilldown, and the alerts.  Examples of cost metrics are CPC (cost per click) or CPL (cost per lead).
+
+![Inverse KPI : image](../images/inverse-kpi.png)
+
+
 
 ## Raw data preview
 

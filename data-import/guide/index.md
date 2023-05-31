@@ -195,7 +195,7 @@ Derived KPIs can be added to a dataset on the Schemas page by selecting the “A
 on the right hand side. In the menu that opens, you can either select a derived KPI to copy from an
 existing dataset or create a new one by dragging and dropping metric names.
 
-Currently BoostKPI only supports derived KPIs of the form X / Y.
+Currently BoostKPI only supports derived KPIs that are a ratio (of the form X / Y) or a percentage (of the form X*100/Y).
 
 #### Mark KPIs as inverse
 
