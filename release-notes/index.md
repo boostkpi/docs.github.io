@@ -1,3 +1,12 @@
+## June 2023
+- Launched an early version of a chat box to answer a user's query. The chat box leverages generative AI to answer queries in English.
+
+## May 2023
+- Setup an early version of AWS Athena in production with one customer.
+- Added documentation to obtain results from overview and drill-down calls as json.
+- Sorted the dataset list.
+- Added support for importing CSVs, where the field names contain commas.
+
 ## April 2023
 - Launched an improved overview table. Now supports sorting based on KPI values and filtering based on dimension names. Implemented in React.
 - Implemented a JSON endpoint to query anomalies.
