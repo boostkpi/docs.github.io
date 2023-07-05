@@ -1,5 +1,6 @@
 ## June 2023
 - Launched an early version of a chat box to answer a user's query. The chat box leverages generative AI to answer queries in English.
+- Launched a feature to let users adjust their import schedule.
 
 ## May 2023
 - Setup an early version of AWS Athena in production with one customer.
