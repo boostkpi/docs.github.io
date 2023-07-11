@@ -100,5 +100,9 @@ For example, I’m importing Facebook Ads spend and conversions.
 The conversion data does not finalize until 7 days later.
 ```
 
-Yes, we do have support for this setting, but it is not exposed in the dashboard.
-Contact your BoostKPI representative to enable this setting.
+Yes, you can configure your data import to refresh a previous time range on the "Import diagnostics" tab. This tab is currently only available *after* creating the import.
+
+1. Navigate to the "Dashboard" at the top of the page and then select the dataset you wish to update in the left hand column.
+2. Select "Import diagnostics" and then to the right click the "Edit import" button.
+3. Under "Refresh data on import" enter the number of timepoints you wish to update on each import. E.g., in the Facebook Ads example, enter 7 so that the last seven days of data are refreshed on each import.
+4. Click the "Update" button and a success message should briefly display at the bottom of the screen.
