@@ -67,7 +67,7 @@ The endpoint has the following required query parameters:
 The endpoint supports the following optional query parameters:
 
 - 'depth' - the number of dimensions to breakdown by (default value: 3)
-- 'dimensions' - dimensions to use in the breakdown (defaults to an automated dimensional analysis and selection)
+- 'includedDimensions' - dimensions to use in the breakdown (defaults to an automated dimensional analysis and selection)
 - 'excludedDimensions' - dimensions to exclude as options from the automated analysis and selection
 
 The endpoint will respond with data in the following json format:
