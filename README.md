@@ -1,6 +1,3 @@
-# Welcome to BoostKPI docs
-
-## FAQ
 
 ### BoostKPI Overview
 - [What is BoostKPI? What are its key features?](/overview/index.md#what-is-boostkpi)

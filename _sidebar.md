@@ -1,5 +1,4 @@
 - [BoostKPI docs](/)
-- [FAQ](/README.md#faq)
 
 - BoostKPI Overview
   - [What is BoostKPI](/overview/index.md#what-is-boostkpi)
