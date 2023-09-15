@@ -1,3 +1,11 @@
+## August 2023
+- Allowed pivot calls on a time dimension.
+- Added links to partner pages, plus created a [partner page](https://cloud.google.com/find-a-partner/partner/boostkpi-inc) for Google Cloud.
+
+## July 2023
+- Enabled pausing imports in the dashboard UI.
+- Enabled accepting dataset alias when constructing detections.
+
 ## June 2023
 - Launched an early version of a chat box to answer a user's query. The chat box leverages generative AI to answer queries in English.
 - Launched a feature to let users adjust their import schedule.
