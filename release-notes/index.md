@@ -1,3 +1,7 @@
+## September 2023
+- Deployed a pivot heatmap feature that works for additive KPIs.
+- Launched an early version that lets users query their data in natural language, using LLMs.
+
 ## August 2023
 - Allowed pivot calls on a time dimension.
 - Added links to partner pages, plus created a [partner page](https://cloud.google.com/find-a-partner/partner/boostkpi-inc) for Google Cloud.
