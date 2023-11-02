@@ -50,6 +50,7 @@
 - [Do you support rolling-7-day alerts?](/alerts/index.md#support-for-rolling-7-day-alerts)
 - [Do you support alerts based on targets? For example,…](/alerts/index.md#alerts-based-on-target)
 - [I want some alerts being routed to one group email address…](/alerts/index.md#alerts-routing-to-specific-email-address)
+- [Can I send anomalies to slack and teams?](/alerts/index.md#send-anomalies-to-slack-and-teams)
 
 ### API
 - [How can I fetch anomalies through the API?](/api/index.md#fetch-anomalies)

@@ -29,4 +29,25 @@ Q: I want some alerts being routed to one group email address
 and other alerts being routed to another group email. Is that possible?
 ```
 
-Yes, you can do so by creating two subscription groups. Please ask your BoostKPI account manager. 
+Yes, you can do so by creating two subscription groups. Please ask your BoostKPI account manager.
+
+## Send anomalies to slack and teams
+```
+Q: Can I send anomalies to a slack channel?
+```
+
+Yes, you can do so by first creating a slack web hook. Then, add the slack web hook to your subscritipn group. Please ask your BoostKPI account manager if you need help.
+
+```
+Q: How do I create a slack webhook?
+```
+
+[This help page](https://api.slack.com/messaging/webhooks#create_a_webhook) explains how to generate the slack webhook.
+All we are looking for is a URL like https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+
+```
+Q: Do you also support Microsoft teams?
+```
+
+Yes, we also support teams. We need a similar webhook to send anomalies to teams. 
+

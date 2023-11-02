@@ -53,6 +53,7 @@
   - [Support for rolling-7-day alerts](/alerts/index.md#support-for-rolling-7-day-alerts)
   - [Alerts based on target](/alerts/index.md#alerts-based-on-target)
   - [Alerts routing to specific email addresses](/alerts/index.md#alerts-routing-to-specific-email-address)
+  - [Send anomalies to slack and teams](/alerts/index.md#send-anomalies-to-slack-and-teams)
 
 - API **(EXPERIMENTAL)**
   - [How can I fetch anomalies through the API?](/api/index.md#fetch-anomalies)
