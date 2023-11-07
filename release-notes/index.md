@@ -1,6 +1,6 @@
 ## October 2023
-- Renamed pivot heatmap to KPI heatmap. Added support for derived KPIs and dimensions with lots of values. [Published a blog post.](https://blog.boostkpi.com/KPI-Heatmap/)
-- Added support for history and internal tools to the chat interface. Whitelisted users can query their data as well as drilldown on changes, using natural language. 
+- Renamed pivot heatmap to KPI heatmap. Added support for derived KPIs and dimensions with lots of values. [Blog post.](https://blog.boostkpi.com/KPI-Heatmap/) [Video.](https://www.youtube.com/watch?v=18SxeqDdXXE) 
+- Added support for history and internal tools to the chat interface. Whitelisted users can query their data as well as drilldown on changes, using natural language. We leverage LLMs as orchestrators. [Blog post.](https://blog.boostkpi.com/orchestration-llms/) [Video.](https://www.youtube.com/watch?v=KVP3-WwN6Dc) 
 
 ## September 2023
 - Deployed a pivot heatmap feature that works for additive KPIs.
