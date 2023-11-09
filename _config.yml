@@ -42,7 +42,17 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-archives
+
+# Other
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
 
 # Configure the remote_theme plugin with the gh-pages branch
 # or the specific tag
 remote_theme: aksakalli/jekyll-doc-theme@gh-pages
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
