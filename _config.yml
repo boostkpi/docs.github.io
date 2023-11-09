@@ -5,7 +5,7 @@ description: ""
 email: contact@boostkpi.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://docs.boostkpi.com"
-favicon_ico: "/assets/ico/favicon.ico"
+favicon_ico: "/assets/ico/favicon.svg"
 logo: "/assets/logo/boostKPI_logo.svg"
 
 # Authors
