@@ -54,6 +54,9 @@ kramdown:
 
 # Configure the remote_theme plugin with the gh-pages branch
 # or the specific tag
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages
+#remote_theme: aksakalli/jekyll-doc-theme@gh-pages
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
