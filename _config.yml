@@ -20,6 +20,7 @@
 
 name: "BoostKPI"
 title: "BoostKPI Docs"
+description: ""
 email: contact@boostkpi.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://docs.boostkpi.com"
