@@ -54,6 +54,6 @@ the potential of our system.
 
 For assistance or inquiries, please contact our support team. If you have any questions or require
 assistance, our dedicated support team is here to help. Please
-feel free to reach out at [support@example.com](mailto:support@example.com).
+feel free to reach out at [contact@boostkpi.com](mailto:contact@boostkpi.com).
 
 **Happy Integrating!**
