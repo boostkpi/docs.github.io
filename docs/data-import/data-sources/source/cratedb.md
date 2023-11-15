@@ -8,23 +8,28 @@ parent: Data import
 
 ## Table of Parameters
 
-| Key        | Description                               | Optional | Data Type |
-|------------|-------------------------------------------|----------|-----------|
-| `Host`     | Hostname or IP address of the CrateDB instance. |          | Text      |
-| `Port`     | Port number on which CrateDB is running.  | Yes      | Number    |
-| `Username` | Username for authentication.              |          | Text      |
-| `Password` | Password for authentication.              |          | Text      |
-| `Use SSL`  | Enable or disable SSL encryption.         | Yes      | Boolean   |
+| Key        | Description            | Optional | Data Type |
+|------------|------------------------|----------|-----------|
+| `name`     | Name of connection     |          | text      |
+| `driver`   | Must be crate          |          | text      |
+| `host`     | Host/Server/IP Address |          | text      |
+| `port`     | Port                   | Yes      | number    |
+| `username` | Database Username      |          | text      |
+| `password` | Database Password      |          | text      |
+| `ssl`      | Use SSL                | Yes      | boolean   |
 
 ## Setup Information
 
 To integrate CrateDB with our system, follow these steps:
 
-1. **Select the CrateDB Connector:** Select the CrateDB connector on import page in `Connection` modal.
+1. **Select the CrateDB Connector:** Select the CrateDB connector on import page in `Connection`
+   modal.
 
-2. **Configure Connection Parameters:** Use the parameters listed above to configure the connection to your CrateDB instance.
+2. **Configure Connection Parameters:** Use the parameters listed above to configure the connection
+   to your CrateDB instance.
 
-3. **Verify Connection:** After configuring the parameters, verify the connection to ensure successful integration.
+3. **Verify Connection:** After configuring the parameters, verify the connection to ensure
+   successful integration.
 
 ## Connection modal
 
@@ -32,7 +37,8 @@ To integrate CrateDB with our system, follow these steps:
 
 ## Additional Documentation
 
-For more details and advanced configurations, refer to the official [CrateDB Documentation](https://docs.crate.io/).
+For more details and advanced configurations, refer to the
+official [CrateDB Documentation](https://docs.crate.io/).
 
 ## Support
 
