@@ -2,6 +2,7 @@
 layout: default
 parent: Data import
 title: Data import guide
+nav_order: 1
 ---
 
 # Data import guide
