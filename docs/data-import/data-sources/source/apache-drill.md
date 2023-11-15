@@ -4,8 +4,6 @@ title: Apache Drill
 parent: Data import
 ---
 
-
-
 # Apache Drill Integration Documentation
 
 ## Table of Parameters
