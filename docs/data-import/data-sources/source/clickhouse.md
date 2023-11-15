@@ -39,7 +39,7 @@ To integrate ClickHouse with our system, follow these steps:
 ## Additional Documentation
 
 For more details and advanced configurations, refer to the
-official [ClickHouse Documentation](https://ClickHouse.apache.org/doc/latest/).
+official [ClickHouse Documentation](https://clickhouse.com/docs/en/intro).
 
 ## Support
 
