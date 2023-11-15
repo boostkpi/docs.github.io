@@ -17,13 +17,15 @@ links to individual data source documentation are provided below:
 5. [**Cassandra**](./source/cassandra)
 6. [**ClickHouse**](./source/clickhouse)
 7. [**CrateDB**](./source/cratedb)
-8. [**MySQL**](./source/mysql)
-9. [**PrestoDB**](./source/prestodb)
+8. [**Databricks**](./source/databricks)
+9. [**MySQL**](./source/mysql)
 10. [**PostgreSQL**](./source/postgresql)
-11. [**Redshift**](./source/redshift)
-12. [**SQL Server**](./source/sql-server)
-13. [**Trino**](./source/trino)
-14. [**Vertica**](./source/vertica)
+11. [**PrestoDB**](./source/prestodb)
+12. [**Redshift**](./source/redshift)
+13. [**SQL Server**](./source/sql-server)
+14. [**Snowflake**](./source/snowflake)
+15. [**Trino**](./source/trino)
+16. [**Vertica**](./source/vertica)
 
 ## Getting Started
 
