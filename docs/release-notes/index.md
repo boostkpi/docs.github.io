@@ -16,7 +16,7 @@ nav_order: 99
 ## November 2023
 - In the KPI breakdown tab, you can now roll up the results by a coarser time granularity. For example, you can get daily or weekly KPIs for hourly dataset.
 - The dimension heatmap is now more useful. It will now show a dimension row even if there is an include/exclude filter on it. 
-- Improved the chatbot interface by adding a list of suggested questions. We used an LLM to generated this list.
+- Improved the chatbot interface by adding a list of suggested questions. We used an LLM to generate this list.
 - Made SEO updates on the [website](https://boostkpi.com) (added solution pages, comparison pages, data sources pages) and the [docs site](https://docs.boostkpi.com)
 
 
