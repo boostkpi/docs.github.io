@@ -13,6 +13,13 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## November 2023
+- In the KPI breakdown tab, you can now roll up the results by a coarser time granularity. For example, you can get daily or weekly KPIs for hourly dataset.
+- The dimension heatmap is now more useful. It will now show a dimension row even if there is an include/exclude filter on it. 
+- Improved the chatbot interface by adding a list of suggested questions. We used an LLM to generated this list.
+- Made SEO updates on the [website](https://boostkpi.com) (added solution pages, comparison pages, data sources pages) and the [docs site](https://docs.boostkpi.com)
+
+
 ## October 2023
 - Renamed pivot heatmap to KPI heatmap. Added support for derived KPIs and dimensions with lots of values. [Blog post.](https://blog.boostkpi.com/KPI-Heatmap/) [Video.](https://www.youtube.com/watch?v=18SxeqDdXXE) 
 - Added support for history and internal tools to the chat interface. Whitelisted users can query their data as well as drilldown on changes, using natural language. We leverage LLMs as orchestrators. [Blog post.](https://blog.boostkpi.com/orchestration-llms/) [Video.](https://www.youtube.com/watch?v=KVP3-WwN6Dc) 
