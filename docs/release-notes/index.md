@@ -13,6 +13,11 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## December 2023
+- Improved the UX by re-implementing the dashboard in react. The dashboard app now flickers less and renders quicker.
+- Improved the drilldown results for non-additive KPIs (like CPC, AOV, Conversion rates).
+ 
+
 ## November 2023
 - In the KPI breakdown tab, you can now roll up the results by a coarser time granularity. For example, you can get daily or weekly KPIs for hourly dataset.
 - The dimension heatmap is now more useful. It will now show a dimension row even if there is an include/exclude filter on it. 
