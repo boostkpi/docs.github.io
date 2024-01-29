@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Release notes
+description: Explore the latest updates in our Release Notes page, featuring new features, enhancements, and bug fixes to improve your user experience and productivity.
 nav_order: 99
 ---
 
