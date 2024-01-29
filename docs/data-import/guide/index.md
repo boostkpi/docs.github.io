@@ -2,6 +2,7 @@
 layout: default
 parent: Data import
 title: Data import guide
+description: Our FAQ page on data importing is your comprehensive guide to mastering data management within BoostKPI. Learn the ins and outs of importing data, including valuable tips and tricks. Discover how to model multiple date columns effectively, handle numerical values as dimensions, and incorporate additional time columns as offsets. Dive into techniques for modeling dimensions with null values and KPIs with negative values, and explore the art of creating derived KPIs for enhanced insights. After importing your data, explore how to add, mark, and manage KPIs, as well as fine-tune your datasets with descriptions, dimension and KPI visibility settings. When it is time to clean up, we've got you covered with instructions on deleting datasets. Elevate your data management skills with BoostKPI's data importing FAQs.
 nav_order: 1
 ---
 

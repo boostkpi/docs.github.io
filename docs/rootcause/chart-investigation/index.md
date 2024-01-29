@@ -2,6 +2,7 @@
 layout: default
 parent: Root-cause
 title: Root-cause chart investigation
+description: Get the most out of your root cause analysis with this helpful FAQ page. Learn how to choose the right dataset granularity for your needs, select the most relevant KPIs to track, filter data for focused investigation, and even merge charts for a holistic understanding of cause-and-effect relationships. With these tips, you'll be able to unravel the root causes of your KPI changes with confidence faster. 
 ---
 
 # Root-cause chart investigation

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Account management
+description: Manage your account effectively with our guide on resetting passwords and inviting team members, ensuring seamless access and collaboration for your team
 nav_order: 1
 ---
 

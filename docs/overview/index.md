@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Overview
+description: Explore our Overview page to understand what BoostKPI is, its key features including dashboard, anomalies, alerts, and data import, along with a website tour and a video overview of the dashboard functionalities  
 nav_order: 0
 ---
 

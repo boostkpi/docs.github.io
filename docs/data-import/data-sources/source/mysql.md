@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MySQL
+description: Easily connect MySQL to BoostKPI with our step-by-step guide in our FAQ page. Unlock the potential of your data in MySQL by seamlessly integrating it with BoostKPI for in-depth analysis and reporting. Our comprehensive instructions will walk you through the process, ensuring a smooth and efficient connection. Dive into the details and harness the power of data analytics with MySQL and BoostKPI combined.
 parent: Data import
 ---
 

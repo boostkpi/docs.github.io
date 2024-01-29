@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SQL Server
+description: Easily connect SQL Server to BoostKPI with our step-by-step guide in our FAQ page. Unlock the potential of your data in SQL Server by seamlessly integrating it with BoostKPI for in-depth analysis and reporting. Our comprehensive instructions will walk you through the process, ensuring a smooth and efficient connection. Dive into the details and harness the power of data analytics with SQL Server and BoostKPI combined.
 parent: Data import
 ---
 

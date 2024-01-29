@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Alerts
+description: Find answers to frequently asked questions about alerts on our alerts FAQ page, including types of alerts, examples, rolling-7-day alerts, target-based alerts, custom email routing, and integrating anomalies and alerts with Slack and Microsoft Teams
 nav_order: 5
 ---
 

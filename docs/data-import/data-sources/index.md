@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Supported data sources
+description: Unlock the power of data integration with our FAQ page on importing data from various sources. Whether you're working with Apache Drill, Apache Pinot, Athena, BigQuery, Cassandra, ClickHouse, CrateDB, Databricks, MySQL, PostgreSQL, PrestoDB, Redshift, SQL Server, Snowflake, Trino, or Vertica, we have got you covered. Learn how to seamlessly import data from these diverse sources into BoostKPI and harness their full potential for your analytics and reporting needs. Dive into our comprehensive FAQs to ensure a smooth and efficient data importing experience from your preferred source.
 parent: Data import
 nav_order: 2
 ---

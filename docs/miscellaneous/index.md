@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Miscellaneous
+description: Find answers to diverse queries in our Miscellaneous FAQs, including the origin of 'BoostKPI' name, handling unlisted questions, customizing dashboard-view charts, and optimizing charts for smaller screens 
 ---
 
 # Miscellaneous
