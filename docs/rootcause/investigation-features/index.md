@@ -2,7 +2,7 @@
 layout: default
 parent: Root-cause
 title: Investigate page features
-description: Uncover hidden trends and pinpoint anomalies with ease. Dive into the Investigate page features: choose your analysis timeframe, compare against various baselines, decipher the heatmap and KPI heatmap's insights, drill down for granular details, and embark on a guided tour to master its potential. This feature exploration empowers you to navigate the Investigate page like a pro, extracting data-driven answers with confidence.
+description: Uncover hidden trends and pinpoint anomalies with ease. Dive into the Investigate page features -- choose your analysis timeframe, compare against various baselines, decipher the heatmap and KPI heatmap insights, drill down for granular details, and embark on a guided tour to master its potential. This feature exploration empowers you to navigate the Investigate page like a pro, extracting data-driven answers with confidence.
 ---
 
 # Investigate page features

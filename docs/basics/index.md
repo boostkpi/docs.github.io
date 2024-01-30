@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basics
-description: Discover the essentials on our Basics page: learn about datasets and KPIs, managing datasets, creating derived KPIs, marking inverse or cost KPIs, previewing raw data, dashboard views, and understanding lookup datasets
+description: Discover the essentials on our Basics page -- learn about datasets and KPIs, managing datasets, creating derived KPIs, marking inverse or cost KPIs, previewing raw data, dashboard views, and understanding lookup datasets
 nav_order: 3
 ---
 
