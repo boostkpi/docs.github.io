@@ -19,3 +19,9 @@ Q: I see a blank page when I go to BoostKPI. How do I fix it?
 ```
 It seems your credentials have expired. Please do a force logout by navigating to 
 [logout page](https://dashboard.boostkpi.com/app/#/logout)
+
+## Inconsistent data
+```
+Q: I see inconsistent data on the page. Is there a way to do a 'hard refresh'?
+```
+Yes, you can clear cached data in your browser by clicking on the user icon (on the upper right-hand corner) > settings > 'Trigger cleanup'. After you reload, you should not see any inconsistent data.
