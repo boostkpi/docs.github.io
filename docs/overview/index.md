@@ -36,7 +36,7 @@ Use this tab to set up granular alerts that combine unsupervised learning with b
 ##### Connect
 Use this tab to connect to the cloud data warehouse.
 
-![Dashboard navigation bar](../images/nav-bar.png)
+![Dashboard navigation bar](../images/nav_bar.png)
 
 ### Dashboard overview video
 
