@@ -33,15 +33,10 @@ Use this tab to customize and access your "dashboard-views", investigate the roo
 Use this tab to view anomalies that resulted from any of your configured alerts. These anomalies, besides being routed to users or to slack/teams, can also be viewed on the dashboard.
 ##### Alerts
 Use this tab to set up granular alerts that combine unsupervised learning with business rules. The anomalies resulting from these alerts can be routed intelligently based on both the root cause as well as the magnitude of the deviation. The alerts can also be sent via slack.
-##### Import
+##### Connect
 Use this tab to connect to the cloud data warehouse.
 
 ![Dashboard navigation bar](../images/nav-bar.png)
-
-#### Website tour of the features on any page
-Click in the upper right corner on question-mark icon.
-
-![Website tour icon](../images/website-tour-button.png)
 
 ### Dashboard overview video
 
