@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Connect to different data warehouses, databases, and data sources
+title: Data import
 description: Navigate through our FAQs on data import, covering supported data sources, IP address white-listing, differences between scheduled and one-off imports, CSV file import details, various supported CSV import types, the import process, and methods for refreshing already imported data on a scheduled basis 
 has_children: true
 nav_order: 4
