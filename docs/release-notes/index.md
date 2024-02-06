@@ -14,6 +14,12 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## January 2024
+- Added list of anomalies on the dashboard page, for easy access.
+- When dimension names are long, the drilldown table showed overlapping text. Fixed the bug.
+- Updated chatbots to use the chatgpt4 API.
+- SEO updates for the [docs site](https://docs.boostkpi.com)
+
 ## December 2023
 - Improved the UX by re-implementing the dashboard in react. The dashboard app now flickers less and renders quicker.
 - Improved the drilldown results for non-additive KPIs (like CPC, AOV, Conversion rates).
