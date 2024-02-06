@@ -28,23 +28,35 @@ At least one of the filters is required.
 
 Anomalies are returned grouped by detection in the following json format:
 
-```
+```json5
 [
   {
-    alertName: "foo", // The name of the detection
-    kpi: "kpi1", // The kpi the detection watches
-    desc: "Detects changes in kpi1", // A brief description of the detection's behavior
+    // The name of the detection
+    alertName: "foo", 
+    // The kpi the detection watches
+    kpi: "kpi1", 
+    // A brief description of the detection's behavior
+    desc: "Detects changes in kpi1", 
     anomalies: [
       {
-        id: 1, // The id of the anomaly
-        start: 1672531200000, // The timestamp when the anomaly began
-        end: 1672617600000, // The timestamp when the anomaly ended
-        type: "DEVIATION", // The type of the anomaly
-        current: 100, // The value of the kpi during the anomaly
-        baseline: 200, // The expected baseline kpi value
-        dimensions: { // The dimension slice that the anomaly occurred in
-          dimension_name: [ // Name of the dimension, e.g., platform, country, etc.
-            "dimension_value" // Value of the dimension, e.g., iOS, US, etc.
+        // The id of the anomaly
+        id: 1, 
+        // The timestamp when the anomaly began
+        start: 1672531200000,
+        // The timestamp when the anomaly ended 
+        end: 1672617600000,
+        // The type of the anomaly 
+        type: "DEVIATION",
+        // The value of the kpi during the anomaly 
+        current: 100, 
+        // The expected baseline kpi value
+        baseline: 200,
+        // The dimension slice that the anomaly occurred in 
+        dimensions: { 
+          // Name of the dimension, e.g., platform, country, etc.
+          dimension_name: [ 
+            // Value of the dimension, e.g., iOS, US, etc.
+            "dimension_value" 
           ]
         }
       },
@@ -88,14 +100,20 @@ The endpoint supports the following optional query parameters:
 
 The endpoint will respond with data in the following json format:
 
-```
+```json5
 {
-  datasetId: 2, // The id of the dataset for the provided metric
-  metricId: 1, // The metric id from the request
-  currentTotal: 100, // Total metric value during the current time range
-  baselineTotal: 150, // Total metric value during the baseline time range
-  dimensions: [ // The dimensions the summary information will be broken down by, comes either from automatic analysis or the query param in the request
-    'dim1",
+  // The id of the dataset for the provided metric
+  datasetId: 2,
+  // The metric id from the request 
+  metricId: 1, 
+  // Total metric value during the current time range
+  currentTotal: 100, 
+  // Total metric value during the baseline time range
+  baselineTotal: 150,
+  // The dimensions the summary information will be broken down by, comes either from automatic 
+  //  analysis or the query param in the request 
+  dimensions: [ 
+    "dim1",
     "dim2",
     "dim3"
   ],
@@ -106,16 +124,21 @@ The endpoint will respond with data in the following json format:
       percentageChange: "-33.333%",
       contributionChange: "5%",
       contributionToOverallChange: "10%",
-      names: [ // The dimension values for this row
+      // The dimension values for this row
+      names: [ 
         "foo", // Dimension values match in order with the dimensions
         "(ALL)", // "ALL" represents that the summary rolled up the row along this dimension
-        "(ALL)-" // "(ALL)-" represents all of the values not present in any other row, e.g., it might represent the rollup of a long tail of dimension values
+        "(ALL)-" // "(ALL)-" represents all of the values not present in any other row, 
+                  // e.g., it might represent the rollup of a long tail of dimension values
       ],
-      otherDimensionValues: [ // The dimension values for any "(ALL)-" entries in the row, may be blank or incomplete for dimensions with high numbers of values
+      // The dimension values for any "(ALL)-" entries in the row, may be 
+      // blank or incomplete for dimensions with high numbers of values
+      otherDimensionValues: [ 
         "bar",
         "baz"
       ],
-      cost: 1000 // An estimate of the importance of the change in a row, higher is more important
+      // An estimate of the importance of the change in a row, higher is more important
+      cost: 1000 
     },
     ...
   ],
@@ -125,7 +148,9 @@ The endpoint will respond with data in the following json format:
   loser: [
     ...
   ],
-  dimensionCost: [ // Costs associated with including particular dimensions in the summary, higher is more important
+  // Costs associated with including particular dimensions in the summary, 
+  //  higher is more important
+  dimensionCost: [ 
     {
       dimensionName: "dim1",
       cost: 1000
@@ -141,15 +166,20 @@ The data in the overview or heatmap table can be fetched by a POST request to 'd
 
 The request should have a json body containing:
 
-```
+```json5
 {
   metric: {
-    id: 1, // The id of the metric, this can be found in the url for an investigation of the metric
-    dims: [ // Optional dimension filters to use
+    // The id of the metric, this can be found in the url for an investigation of the metric
+    id: 1, 
+    // Optional dimension filters to use
+    dims: [ 
       {
-        label: "country", // The dimension name to filter
-        included: [ // Can be an include or an exclude filter
-          "US", "CA", ... // The dimension values to filter
+        // The dimension name to filter
+        label: "country", 
+        // Can be an include or an exclude filter
+        included: [ 
+          // The dimension values to filter
+          "US", "CA", ... 
         ]
       },
       ...
@@ -161,22 +191,32 @@ The request should have a json body containing:
       }
     ]
   },
-  start: 1682899200000, // The inclusive start of the investigation range as a timestamp in milliseconds, this timestamp is May 1st, 2023
-  end: 1683417600000, // The exclusive end of the investigation range as a timestamp in milliseconds, this timestamp is May 7th, 2023
-  offset: "wo1w", // A string representing the offset for comparison: "wo1w" to compare to the previous week, "mo3m" to compare to three months prior, "do1d" to compare to the previous day
-  limit: 50 // The number of top dimension values to return for each dimension, values past the limit will be rolled up into other
+  // The inclusive start of the investigation range as a timestamp 
+  //  in milliseconds, this timestamp is May 1st, 2023
+  start: 1682899200000, 
+  // The exclusive end of the investigation range as a timestamp 
+  //  in milliseconds, this timestamp is May 7th, 2023
+  end: 1683417600000, 
+  // A string representing the offset for comparison: "wo1w" to compare to the previous week, 
+  //  "mo3m" to compare to three months prior, "do1d" to compare to the previous day
+  offset: "wo1w", 
+  // The number of top dimension values to return for each dimension, 
+  //  values past the limit will be rolled up into other
+  limit: 50 
 }
 ```
 
 The endpoint will respond with breakdown data in the following json format:
 
-```
+```json5
 {
   result_complete: {
     dimension_name1: {
       dimension_value1: {
-        current: 10, // The metric value for dimension_value1 during the start to end time range
-        offset: 8 // The metric value for dimension_value1 during the offset comparison time range
+        // The metric value for dimension_value1 during the start to end time range
+        current: 10, 
+        // The metric value for dimension_value1 during the offset comparison time range
+        offset: 8 
       },
       ...
       dimension_value50: {
@@ -189,11 +229,16 @@ The endpoint will respond with breakdown data in the following json format:
     },
     ...
   },
-  totals: { // The overall metric totals, these values can be used to compute the tail metric values past the requested limit
-    current: 100, // The value of the metric between the start and end time
-    offset: 90  // The value of the metric during the offset comparison time range
+  // The overall metric totals, these values can be used to compute the tail 
+  //  metric values past the requested limit
+  totals: { 
+    // The value of the metric between the start and end time
+    current: 100, 
+    // The value of the metric during the offset comparison time range
+    offset: 90 
   },
-  performanceId: 1 // An id for internal BoostKPI use
+  // An id for internal BoostKPI use
+  performanceId: 1 
 }
 ```
 
