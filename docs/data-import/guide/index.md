@@ -112,7 +112,7 @@ nav_order: 1
 
 # Data modeling tips
 
-#### Modeling multiple date columns
+## Modeling multiple date columns
 
 If you have multiple dates or timestamps in the columns of your query results, only set your primary
 time column to Date/Timestamp in the import selector and set the other time columns to Dimension.
@@ -127,7 +127,7 @@ column (that is after the invoice_date). The payment_date could be modeled as pa
 =DATE_DIFF(payment_date, invoice_date)) in days – it is then possible to identify when there is an
 increase in late payments.
 
-#### Modeling column with numerical value as a dimension
+## Modeling column with numerical value as a dimension
 
 Consider grouping numeric dimension columns or time dimension columns into buckets when they have a
 large range.
@@ -141,7 +141,7 @@ groups, e.g., 18-24, 25-34, 35-44, 45-54, 55-64, 65+.
 
 Depending on your use-case you might want to keep the original dimension columns around as well.
 
-#### Modeling additional time columns as offsets.
+## Modeling additional time columns as offsets.
 
 Consider replacing time Dimension columns with offsets computed from the primary time column.
 
@@ -154,7 +154,7 @@ based on account age at time of purchase.
 
 It can also be useful to further bucket these offsets.
 
-#### Modeling dimensions with null values.
+## Modeling dimensions with null values.
 
 Only import null dimension values if there is no category label that can be applied to the row.
 Consider replacing them with suitable String values like “none”, “missing”, etc.
@@ -165,7 +165,7 @@ viewing a breakdown by that dimension. This would be appropriate in an instance 
 column only makes sense for a subset of rows as would be the case for buy/sell data: purchase_month
 would have a value for buy rows and null for sell rows.
 
-#### Modeling KPI with negative values.
+## Modeling KPI with negative values.
 
 Often, negative values such as -1 are used as sentinel values to indicate that a KPI field has not
 been updated. In many such cases, it is better to model it as a 0 value (which can be done via a
@@ -173,7 +173,7 @@ case statement in the SQL editor).
 
 For many of its analyses, BoostKPI assumes that the KPIs are non-negative.
 
-#### Modeling derived KPIs.
+## Modeling derived KPIs.
 
 Do not directly import a derived KPI. Instead, import the numerator and denominator separately and
 then set-up the derived KPI in the BoostKPI dashboard. This will ensure that BoostKPI can correctly
@@ -189,7 +189,7 @@ backfill is complete, you will receive an email notification. While the data is 
 finish setting up your dataset on the dataset schema page. To navigate there, select your dataset on
 the BoostKPI dashboard and select the “Schemas” tab along the top row.
 
-#### Add derived KPIs
+## Add derived KPIs
 
 Derived KPIs can be added to a dataset on the Schemas page by selecting the “Add derived KPI” button
 on the right hand side. In the menu that opens, you can either select a derived KPI to copy from an
@@ -197,7 +197,7 @@ existing dataset or create a new one by dragging and dropping metric names.
 
 Currently BoostKPI only supports derived KPIs that are a ratio (of the form X / Y) or a percentage (of the form X*100/Y).
 
-#### Mark KPIs as inverse
+## Mark KPIs as inverse
 
 On the dataset’s Schemas page, KPIs can be marked as “Inverse”. This indicates that an increase in
 the KPI should be reflected as a bad change while a decrease should be reflected as a good change.
@@ -205,7 +205,7 @@ When set, an inverse KPI will use red numbers for increases and blue numbers for
 opposite coloring of normal KPIs). This is useful for interpreting change when viewing cost or spend
 metrics that you want to minimize.
 
-#### Add descriptions and show/hide dimensions and KPIs
+## Add descriptions and show/hide dimensions and KPIs
 
 Also on the Schemas page, you can add short descriptions for the dataset and the dataset’s
 dimensions. This is useful to include important dataset context that user’s may not have such as how
@@ -214,7 +214,7 @@ KPIs were defined or what kind of values are stored in a dimension.
 Dimensions and KPIs can also be hidden (or unhidden) to decrease clutter when performing an
 investigation on a dataset.
 
-#### Deleting datasets
+## Deleting datasets
 
 A dataset can be deleted from the BoostKPI dashboard by selecting “Edit dataset” on the right hand
 side of the Schemas page. At the bottom of the edit menu, type “DELETE” into the text box and then

@@ -62,7 +62,7 @@ BoostKPI also supports one-off import of CSV file. To import the file, go to Imp
 
 ![Upload CSV: image](../images/upload-csv.png)
 
-#### Types of supported csv imports
+### Types of supported csv imports
 
 BoostKPI supports two types of csv imports: a time-series csv and a lookup csv.
 

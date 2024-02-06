@@ -29,30 +29,30 @@ You can use the date filter to select a different investigation period. You can 
 The baseline defines the comparison time period. ‘**2 weeks prior**’ means that the baseline period is 2 weeks prior to the investigation period. The baseline period corresponding to the chosen baseline is displayed below the dropdown.
 
 Some other possible values of baseline are:
-##### 5 days prior
+### 5 days prior
 The baseline period is set to the investigation period shifted 5 days prior. 
 In the above example, it will be **Mar 13 - Mar 27**. Similarly, ‘**10 days prior**’ means 
 that the investigation period is shifted by 10 days. Previously, the tool used **do5d** to refer to '**5 days prior**'.
 
-##### 1 week prior
+### 1 week prior
 The baseline period is set to the investigation period is shifted a week earlier. 
 For a daily dataset, **1 week prior** will have the same behavior as **7 days prior**. 
 Similarly, **3 weeks prior** means that the investigation period is shifted 3 weeks prior. 
 Previously, the tool used **wo3w** to refer to this baseline option.
 
-##### mean4w
+### mean4w
 The baseline period is synthetically computed by averaging the values for each of the 
 four prior weeks. If the investigation period contains May 29th, then the baseline value 
 for May 29th is the average of the actual values for May 22nd, May 15th, May 8th, and May 1st. 
 Baseline values for the rest of the investigation period are computed in the same manner.
 
-##### meadian4w
+### meadian4w
 The baseline period is synthetically computed by taking the median values for each of the four 
 prior weeks (averaging the middle two). If the investigation period contains May 29th, then the 
 baseline value for May 29th is the median of the actual values for May 22nd, May 15th, May 8th, 
 and May 1st.
 
-##### forecast
+### forecast
 Fills in the baseline period with values computed via a machine learning forecast trained on 
 the prior time period. Note: this baseline is not compatible with all the tabs below the timeseries.
 
