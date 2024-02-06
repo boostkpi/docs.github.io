@@ -3,11 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+description: BoostKPI documentation site
 ---
 
 # Welcome to [BoostKPI](https://boostkpi.com) Docs
 
-### Table of contents
+## Table of contents
 
 - BoostKPI Overview
     - [What is BoostKPI](/docs/overview/#what-is-boostkpi)
