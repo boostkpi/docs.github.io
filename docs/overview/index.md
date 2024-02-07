@@ -40,6 +40,6 @@ Use this tab to connect to the cloud data warehouse.
 
 ### Dashboard overview video
 
-An overview video of the root-cause analysis page is available at [https://www.boostkpi.com/video](https://www.boostkpi.com/video).
+An overview video of the root-cause analysis page is available at [https://boostkpi.com](https://boostkpi.com).
 
 To see configuration options for setting up alerts, please look at [our blog post](https://blog.boostkpi.com/Sample-alerting-configurations/). It also shows an example of a rolling 7-day alert for a daily dataset. 
