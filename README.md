@@ -49,6 +49,7 @@
 
 ### Alerts
 - [What are alerts? What kind of alert configurations do you…](/alerts/index.md#what-are-alerts)
+- [How can I set up alerts with AI assistance?](/alerts/index.md#setting-up-alerts-with-ai-assistance)
 - [Where can I see example alerts?](/alerts/index.md#example-alerts)
 - [Do you support rolling-7-day alerts?](/alerts/index.md#support-for-rolling-7-day-alerts)
 - [Do you support alerts based on targets? For example,…](/alerts/index.md#alerts-based-on-target)
