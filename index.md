@@ -60,6 +60,7 @@ description: BoostKPI documentation site
 - Alerts
     - [What are alerts](/docs/alerts/#what-are-alerts)
     - [Example alerts](/docs/alerts/#example-alerts)
+    - [AI help creating alerts](/docs/alerts/#setting-up-alerts-with-ai-assistance)
     - [Support for rolling-7-day alerts](/docs/alerts/#support-for-rolling-7-day-alerts)
     - [Alerts based on target](/docs/alerts/#alerts-based-on-target)
     - [Alerts routing to specific email addresses](/docs/alerts/#alerts-routing-to-specific-email-address)

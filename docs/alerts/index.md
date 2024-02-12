@@ -26,6 +26,30 @@ Our blog post
 at [Sample alerting configurations](https://blog.boostkpi.com/Sample-alerting-configurations/)
 provides example alerts.
 
+## Setting up alerts with AI assistance
+
+You can receive AI-powered assistance setting up alerts by navigating to [alert creation](https://dashboard.boostkpi.com/app/#/self-serve/create-alert) and clicking on the 'AI-powered alert creation' button in the top left of the page.
+
+Ask the AI to write an alert configuration using natural language. The AI will return to you a YAML configuration that you can copy into the main alert configuration editor.
+
+After copying the alert, remember to add the new alert's name to a subscription to receive a notification when the alert finds an anomaly. An example is provided below:
+
+```
+subscriptionGroupName: 'subscription_name'
+
+application: company-name
+
+subscribedDetections:
+- 'new_alert_name' # Add your new alert's name here
+
+alertSchemes:
+- type: EMAIL
+  params:
+    recipients:
+      to:
+      - email@company-name.com
+```
+
 ## Support for rolling-7-day alerts
 
 Our blog post
