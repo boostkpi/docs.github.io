@@ -23,6 +23,7 @@ BoostKPI can connect to many different data sources that support a SQL interface
 - Apache Pinot
 - Google BigQuery
 - ClickHouse
+- Cloud SQL
 - Databricks Lakehouse
 - Microsoft SQL Server
 - MySQL
