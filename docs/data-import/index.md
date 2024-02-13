@@ -18,17 +18,21 @@ nav_order: 4
 ## Supported data sources
 
 BoostKPI can connect to many different data sources that support a SQL interface. The current list of supported data sources includes:
+- AlloyDB
 - Amazon Athena
 - Amazon Redshift
 - Apache Pinot
+- Apache Drill
 - Google BigQuery
+- Cassandra
 - ClickHouse
 - Cloud SQL
+- CrateDB
 - Databricks Lakehouse
 - Microsoft SQL Server
 - MySQL
-- Postgres
-- Presto
+- PostgreSQL
+- PrestoDB
 - Snowflake
 - Trino
 - Vertica
