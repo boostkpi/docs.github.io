@@ -28,7 +28,7 @@ To integrate Cloud SQL with our system, follow these steps:
    successful integration.
 
 
-## PostgresSQL
+## PostgreSQL
 
 ### Table of Parameters
 
