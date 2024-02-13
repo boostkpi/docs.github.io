@@ -27,7 +27,6 @@ To integrate Cloud SQL with our system, follow these steps:
 3. **Verify Connection:** After configuring the parameters, verify the connection to ensure
    successful integration.
 
-
 ## PostgreSQL
 
 ### Table of Parameters
@@ -35,7 +34,7 @@ To integrate Cloud SQL with our system, follow these steps:
 | Key                                | Description                                           | Optional | Data Type |
 |------------------------------------|-------------------------------------------------------|----------|-----------|
 | `name`                             | Name of connection                                    |          | text      |
-| `driver`                           | Must be postgres                                      |          | text      |
+| `driver`                           | Must be Cloud SQL - Postgres                          |          | text      |
 | `multiStatementTransactionEnabled` | Reuse db connection across query executions           |          | boolean   |
 | `idleTimeoutSeconds`               | Seconds to allow connection to be idle before closing |          | number    |
 | `queryTimeout`                     | Seconds to allow any query to run before cancelling   |          | number    |
@@ -55,7 +54,6 @@ To integrate Cloud SQL with our system, follow these steps:
 | `socksUsername`                    | Username for socks proxy                              | Yes      | text      |
 | `socksPassword`                    | Password for socks proxy                              | Yes      | text      |
 
-
 ### Connection modal
 
 ![Cloud SQL PostgreSQL Integration](../../../images/integration/cloud-sql/cloud-sql-postgres-integration.png)
@@ -67,7 +65,7 @@ To integrate Cloud SQL with our system, follow these steps:
 | Key                                | Description                                                                                                                                                                                                                         | Optional | Data Type |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------|
 | `name`                             | Name of connection                                                                                                                                                                                                                  |          | text      |
-| `driver`                           | Must be mysql                                                                                                                                                                                                                       |          | text      |
+| `driver`                           | Must be Cloud SQL - MySQL                                                                                                                                                                                                           |          | text      |
 | `multiStatementTransactionEnabled` | Reuse db connection across query executions. When enabled a persistent database connection will be opened and used for query executions, allowing things like opening transactions and creating temp tables across query executions | Yes      | boolean   |
 | `Idle timeout`                     | Number of minutes to allow a connection to be idle before closing.                                                                                                                                                                  |          | boolean   |
 | `host`                             | Host/Server/IP Address                                                                                                                                                                                                              |          | text      |
@@ -89,19 +87,19 @@ To integrate Cloud SQL with our system, follow these steps:
 
 ### Table of Parameters
 
-| Key                            | Description                   | Optional | Data Type |
-|--------------------------------|-------------------------------|----------|-----------|
-| `name`                         | Name of connection            |          | text      |
-| `driver`                       | Must be sqlserver             |          | text      |
-| `host`                         | Host/Server/IP Address        |          | text      |
-| `port`                         | Port                          | Yes      | text      |
-| `database`                     | Database                      |          | text      |
-| `username`                     | Database Username             |          | text      |
-| `password`                     | Database Password             |          | text      |
-| `domain`                       | Domain                        |          | text      |
-| `sqlserverEncrypt`             | Encrypt (necessary for Azure) | Yes      | boolean   |
-| `sqlserverMultiSubnetFailover` | MultiSubnetFailover           | Yes      | boolean   |
-| `readOnlyIntent`               | ReadOnly Application Intent   | Yes      | boolean   |
+| Key                            | Description                    | Optional | Data Type |
+|--------------------------------|--------------------------------|----------|-----------|
+| `name`                         | Name of connection             |          | text      |
+| `driver`                       | Must be Cloud SQL - SQL Server |          | text      |
+| `host`                         | Host/Server/IP Address         |          | text      |
+| `port`                         | Port                           | Yes      | text      |
+| `database`                     | Database                       |          | text      |
+| `username`                     | Database Username              |          | text      |
+| `password`                     | Database Password              |          | text      |
+| `domain`                       | Domain                         |          | text      |
+| `sqlserverEncrypt`             | Encrypt (necessary for Azure)  | Yes      | boolean   |
+| `sqlserverMultiSubnetFailover` | MultiSubnetFailover            | Yes      | boolean   |
+| `readOnlyIntent`               | ReadOnly Application Intent    | Yes      | boolean   |
 
 ### Connection modal
 
