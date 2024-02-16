@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AlloyDB
-description: Effortlessly integrate AlloyDB with BoostKPI for in-depth analysis and reporting. Our step-by-step guide ensures a smooth connection process, unlocking the power of data analytics.
+title: Easy steps to connect data in AlloyDB to BoostKPI.
+description: Easily connect data in AlloyDB to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---
 

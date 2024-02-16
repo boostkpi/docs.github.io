@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Cloud SQL
-description: Easily connect your Cloud SQL databases to BoostKPI with our step-by-step guide. Seamlessly integrate your data for in-depth analysis and reporting. Our instructions ensure a smooth and efficient connection, unlocking the power of data analytics with Cloud SQL and BoostKPI combined.
+title: Easy steps to connect Google Cloud SQL to BoostKPI.
+description: Easily connect data in Cloud SQL to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---
 

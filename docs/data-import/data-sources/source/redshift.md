@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Redshift
-description: Easily connect Redshift to BoostKPI with our step-by-step guide in our FAQ page. Unlock the potential of your data in Redshift by seamlessly integrating it with BoostKPI for in-depth analysis and reporting. Our comprehensive instructions will walk you through the process, ensuring a smooth and efficient connection. Dive into the details and harness the power of data analytics with Redshift and BoostKPI combined.
+title: Easy steps to connect Amazon Redshift to BoostKPI.
+description: Easily connect Amazon Redshift to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---
 

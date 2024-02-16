@@ -1,7 +1,7 @@
 ---
 layout: default
-title: BigQuery
-description: Easily connect BigQuery to BoostKPI with our step-by-step guide in our FAQ page. Unlock the potential of your data in BigQuery by seamlessly integrating it with BoostKPI for in-depth analysis and reporting. Our comprehensive instructions will walk you through the process, ensuring a smooth and efficient connection. Dive into the details and harness the power of data analytics with BigQuery and BoostKPI combined.
+title: Easy steps to connect BigQuery to BoostKPI.
+description: Easily connect BigQuery to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---
 
