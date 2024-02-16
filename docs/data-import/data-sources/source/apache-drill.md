@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy steps to connect Apache Drill to BoostKPI.
+title: Apache Drill
 description: Easily connect Apache Drill to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy steps to connect ClickHouse to BoostKPI.
+title: ClickHouse
 description: Easily connect ClickHouse to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---

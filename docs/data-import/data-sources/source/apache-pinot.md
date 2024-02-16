@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy steps to connect Apache Pinot to BoostKPI.
+title: Apache Pinot
 description: Easily connect Apache Pinot to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---

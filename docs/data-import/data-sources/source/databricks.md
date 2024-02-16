@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy steps to connect Databricks to BoostKPI.
+title: Databricks
 description: Easily connect Databricks to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---

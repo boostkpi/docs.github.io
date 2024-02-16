@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy steps to connect data in Trino to BoostKPI.
+title: Trino
 description: Easily connect Trino to BoostKPI with our step-by-step guide. Enable root-cause analysis and granular alerts on KPI changes.
 parent: Data import
 ---
