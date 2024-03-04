@@ -21,14 +21,15 @@ links to individual data source documentation are provided below:
 8. [**Cloud SQL**](./source/cloud-sql.html)
 9. [**CrateDB**](./source/cratedb.html)
 10. [**Databricks**](./source/databricks.html)
-11. [**MySQL**](./source/mysql.html)
-12. [**PostgreSQL**](./source/postgresql.html)
-13. [**PrestoDB**](./source/prestodb.html)
-14. [**Redshift**](./source/redshift.html)
-15. [**Microsoft SQL Server**](./source/sql-server.html)
-16. [**Snowflake**](./source/snowflake.html)
-17. [**Trino**](./source/trino.html)
-18. [**Vertica**](./source/vertica.html)
+11. [**DuckDB**](./source/duckdb.html)
+12. [**MySQL**](./source/mysql.html)
+13. [**PostgreSQL**](./source/postgresql.html)
+14. [**PrestoDB**](./source/prestodb.html)
+15. [**Redshift**](./source/redshift.html)
+16. [**Microsoft SQL Server**](./source/sql-server.html)
+17. [**Snowflake**](./source/snowflake.html)
+18. [**Trino**](./source/trino.html)
+19. [**Vertica**](./source/vertica.html)
 
 ## Getting Started
 
