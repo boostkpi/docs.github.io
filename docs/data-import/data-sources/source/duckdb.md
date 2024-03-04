@@ -21,18 +21,40 @@ parent: Data import
 
 To import data from DuckDB to our system, follow these steps:
 
-1. **Select the DuckDB Connector:** Select the AlloyDB connector on import page in `Connection`
+1. **Upload your data file to your storage provider** (Example: S3 file upload)
+   1. Click on **Upload** button
+   2. Click on **Add files** button
+   3. Select your data file and confirm the dialog 
+   4. Validate uploaded file configuration and click on **Upload** button 
+   5. Wait for the upload to finish and validate it's success
+   6. Open the destination bucket, then uploaded file page and copy the file URL
+   
+   <video autoplay="autoplay" loop="loop" width="768" height="512">
+     <source src="../../../images/integration/duckdb/Parquet_S3_Upload.webm" type="video/webm">
+   </video>   
+
+2. **Select the DuckDB Connector:** Select the AlloyDB connector on import page in `Connection`
    modal.
 
-2. **Configure Connection Parameters:** Use the parameters listed above to configure the connection to your DuckDB
+3. **Configure Connection Parameters:** Use the parameters listed above to configure the connection to your DuckDB
    instance. For improved security, it is strongly suggested to use presigned URLs for data import.
 
-3. **Verify Connection:** After configuring the parameters, verify the connection to ensure
+   Presigned URL is required if the storage is private:
+
+   <video autoplay="autoplay" loop="loop" width="768" height="512">
+     <source src="../../../images/integration/duckdb/S3_Create_Presigned_URL_compressed.webm" type="video/webm">
+   </video>
+
+4. **Verify Connection:** After configuring the parameters, verify the connection to ensure
    successful integration.
+
+   <video autoplay="autoplay" loop="loop" width="768" height="512">
+     <source src="../../../images/integration/duckdb/Connect_Parquet_compressed.webm" type="video/webm">
+   </video>
 
 ## Connection modal
 
-![DuckDB Integration](../../../images/integration/duckdb-integration.png)
+![DuckDB Integration](../../../images/integration/duckdb/duckdb-integration.png)
 
 ## Additional Documentation
 
