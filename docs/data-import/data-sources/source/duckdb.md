@@ -31,15 +31,16 @@ To import data from DuckDB to our system, follow these steps:
    
    <video autoplay="autoplay" loop="loop" width="768" height="512">
      <source src="../../../images/integration/duckdb/Parquet_S3_Upload.webm" type="video/webm">
-   </video>   
+   </video>
 
-2. **Select the DuckDB Connector:** Select the AlloyDB connector on import page in `Connection`
+2. **Select the DuckDB Connector:** Select the DuckDB connector on import page in `Connection`
    modal.
 
 3. **Configure Connection Parameters:** Use the parameters listed above to configure the connection to your DuckDB
    instance. For improved security, it is strongly suggested to use presigned URLs for data import.
 
-   Presigned URL is required if the storage is private:
+   Presigned URL is required if the storage is private. Any presigned URL will work. As an example, the file can be
+   uploaded to Google Cloud Storage, AWS S3 or Azure Storage:
 
    <video autoplay="autoplay" loop="loop" width="768" height="512">
      <source src="../../../images/integration/duckdb/S3_Create_Presigned_URL_compressed.webm" type="video/webm">
