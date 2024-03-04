@@ -28,7 +28,8 @@ BoostKPI can connect to many different data sources that support a SQL interface
 - ClickHouse
 - Cloud SQL
 - CrateDB
-- Databricks Lakehouse
+- Databricks
+- DuckDB
 - Microsoft SQL Server
 - MySQL
 - PostgreSQL
