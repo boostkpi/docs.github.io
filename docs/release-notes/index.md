@@ -14,6 +14,12 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## February 2024
+- Launched natural language prompts to create alert YAML [blog](https://blog.boostkpi.com/natural-language-alerts/)
+- Added data connectors for [AlloyDB](https://boostkpi.com/data-sources/alloydb), [Google Cloud SQL](https://boostkpi.com/data-sources/cloud-sql), and [DuckDB](https://boostkpi.com/data-sources/duckdb)
+- Updated the layout and styling for the [website](https://boostkpi.com). Made it easier to add [solutions pages](https://boostkpi.com/solutions)
+- Fixed a number of pending bugs introduced during the migration to react.
+
 ## January 2024
 - Added list of anomalies on the dashboard page, for easy access.
 - When dimension names are long, the drilldown table showed overlapping text. Fixed the bug.
