@@ -29,7 +29,7 @@ To import data from DuckDB to our system, follow these steps:
    5. Wait for the upload to finish and validate it's success
    6. Open the destination bucket, then uploaded file page and copy the file URL
    
-   <video autoplay="autoplay" loop="loop" width="768" height="512">
+   <video autoplay="autoplay" loop="loop" width="768" height="512" muted>
      <source src="../../../images/integration/duckdb/Parquet_S3_Upload.webm" type="video/webm">
    </video>
 
@@ -42,14 +42,14 @@ To import data from DuckDB to our system, follow these steps:
    Presigned URL is required if the storage is private. Any presigned URL will work. As an example, the file can be
    uploaded to Google Cloud Storage, AWS S3 or Azure Storage:
 
-   <video autoplay="autoplay" loop="loop" width="768" height="512">
+   <video autoplay="autoplay" loop="loop" width="768" height="512" muted>
      <source src="../../../images/integration/duckdb/S3_Create_Presigned_URL_compressed.webm" type="video/webm">
    </video>
 
 4. **Verify Connection:** After configuring the parameters, verify the connection to ensure
    successful integration.
 
-   <video autoplay="autoplay" loop="loop" width="768" height="512">
+   <video autoplay="autoplay" loop="loop" width="768" height="512" muted>
      <source src="../../../images/integration/duckdb/Connect_Parquet_compressed.webm" type="video/webm">
    </video>
 
