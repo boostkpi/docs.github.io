@@ -80,6 +80,19 @@ For other issues or if you need further assistance, please contact our support t
 
 ## FAQs 
 
+**Q: Can I use ADA with different files instead of CSV?**
+
+A: ADA is equipped to handle in-chat conversions from JSON and XLSX to CSV, ensuring integration
+with the BoostKPI Upload feature. For detailed analytics, CSV is the only supported format at the moment
+on the BoostKPI Upload page. Simply prompt ADA to convert your file, and it will supply a download
+link for the CSV version, ready for upload and analysis.
+
+**Q: What steps should I take if my CSV file isn't working?**
+
+A: If you encounter any issues with your CSV file, please consult our troubleshooting guide for
+common solutions. Alternatively, you can directly ask ADA for assistance – our AI is on standby to
+help resolve your file concerns efficiently.
+
 **Q: What if my CSV file exceeds the 1 million row limit?**
 
 A: Consider providing only part of the file that contains data required for the analysis.
