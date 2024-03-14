@@ -87,7 +87,7 @@ with the BoostKPI Upload feature. For detailed analytics, CSV is the only suppor
 on the BoostKPI Upload page. Simply prompt ADA to convert your file, and it will supply a download
 link for the CSV version, ready for upload and analysis.
 
-**Q: What steps should I take if my CSV file isn't working with ADA?**
+**Q: What steps should I take if my CSV file isn't working?**
 
 A: If you encounter any issues with your CSV file, please consult our troubleshooting guide for
 common solutions. Alternatively, you can directly ask ADA for assistance – our AI is on standby to
