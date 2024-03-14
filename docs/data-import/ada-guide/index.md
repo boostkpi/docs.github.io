@@ -6,7 +6,7 @@ description: Step-by-step guide on uploading CSV files through ADA for analysis.
 nav_order: 2
 ---
 
-# CSV Upload Workflow Documentation
+# ADA's CSV file upload guide
 
 ## Introduction
 
