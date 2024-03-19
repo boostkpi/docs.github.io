@@ -47,7 +47,7 @@ Try seeing which dimensions caused the increase in spend between the last two we
 
 The KPI breakdown table is similar to the dimension breakdown table, but instead of breaking down one kpi by every dimension, the KPI breakdown table breaks down every kpi by one dimension. This allows you to see how an important dimension is contributing to KPIs across your business.
 
-![KPI breakdown table example](/images/ada/kpi_breakdown.png)
+![KPI breakdown table example](/images/ada/kpi-breakdown.png)
 
 Try using the KPI breakdown to see how different marketing channels have performed between March 2021 and February 2021.
 
