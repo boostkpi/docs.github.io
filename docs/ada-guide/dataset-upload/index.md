@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Data import
+parent: Ada user guide
 title: Ada file upload guide
 description: Step-by-step guide on uploading CSV files through Ada for analysis. Includes file requirements, error resolutions, and troubleshooting tips.
 nav_order: 2
