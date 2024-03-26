@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
 gem "sass-embedded", "~> 1.69.5"
-gem "just-the-docs", "~> 0.7.0"
+gem "just-the-docs", "~> 0.8.1"
 gem "wdm", "~> 0.1.1" if Gem.win_platform?
 group :jekyll_plugins do
   gem "jekyll-feed"
