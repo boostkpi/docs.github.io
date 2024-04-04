@@ -14,6 +14,14 @@ nav_order: 99
 1. TOC
 {:toc}
 
+
+## March 2024
+- We celebrated [the launch of Ada, our AI-powered data analyst, on ProductHunt](https://www.producthunt.com/products/ada-by-boostkpi). This launch generated significant interest, garnering over 110 upvotes and achieving a daily ranking of 21 and a weekly ranking of 82.
+- Our [website](https://boostkpi.com) underwent a major makeover in preparation for Ada's launch. We added more content and improved the design.
+- To enhance our website's SEO, we transitioned to Static Site Generation.
+- Ada received exciting updates this month, including the support for filters and new datasets.
+- We integrated LLM-based summaries into the drilldown and dimension overview table reports, making data insights even more accessible and comprehensible.
+
 ## February 2024
 - Launched natural language prompts to create alert YAML [blog](https://blog.boostkpi.com/natural-language-alerts/)
 - Added data connectors for [AlloyDB](https://boostkpi.com/data-sources/alloydb), [Google Cloud SQL](https://boostkpi.com/data-sources/cloud-sql), and [DuckDB](https://boostkpi.com/data-sources/duckdb)
