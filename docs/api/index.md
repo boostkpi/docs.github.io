@@ -16,7 +16,7 @@ nav_order: 6
 
 ## How can I fetch anomalies through the API?
 
-BoostKPI provides programmatic access to anomalies. They can be fetched via a GET request to the following endpoint `dashboard.boostkpi.com/anomalies/json`.
+BoostKPI provides programmatic access to anomalies. They can be fetched via a GET request to the following endpoint `dashboard.boostkpi.com/api/anomalies/json`.
 
 The endpoint supports the following query parameters:
 
@@ -83,7 +83,7 @@ Anomalies are returned grouped by detection in the following json format:
 
 ## How can I fetch the drilldown data through the API?
 
-The data in the drilldown table can be fetched by a GET request to 'dashboard.boostkpi.com/dashboard/summary/autoDimensionOrder'.
+The data in the drilldown table can be fetched by a GET request to 'dashboard.boostkpi.com/api/dashboard/summary/autoDimensionOrder'.
 
 The endpoint has the following required query parameters:
 
@@ -162,7 +162,7 @@ The endpoint will respond with data in the following json format:
 
 ## How can I fetch the overview or heatmap data through the API?
 
-The data in the overview or heatmap table can be fetched by a POST request to 'dashboard.boostkpi.com/rootcause/metric/breakdown'.
+The data in the overview or heatmap table can be fetched by a POST request to 'dashboard.boostkpi.com/api/rootcause/metric/breakdown'.
 
 The request should have a json body containing:
 
@@ -253,7 +253,7 @@ With the cookie set, here is an example request using the tool curl that can be 
 ```
 curl 
 --cookie te_auth=665ceb3c7272adddfa9f54fd603a6ebed0033a4b5b8391344ab47e756dd59935 
-https://dashboard.boostkpi.com/anomalies/json\?anomalyWindowStart\=1683717689000\&anomalyWindowEnd\=1683917689000
+https://dashboard.boostkpi.com/api/anomalies/json\?anomalyWindowStart\=1683717689000\&anomalyWindowEnd\=1683917689000
 ```
 
 
