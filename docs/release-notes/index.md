@@ -14,6 +14,21 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## April 2024
+
+### New Features and Enhancements:
+- **Google Cloud Certifications:** BoostKPI is now Google Cloud Ready for BigQuery, AlloyDB, and CloudSQL! For more details on what this means for you, check out our [partners page](https://boostkpi.com/partners).
+- **AI Chat Prototype:** We've prototyped the first version of our AI Chat that operates directly on the data warehouse, enabling insights without the need to create separate BoostKPI datasets.
+- **UI Updates:**
+  - New Integrations page added. Explore it [here](https://boostkpi.com/integrations).
+  - Reworked Pricing page for clearer, more accessible information. See the new pricing structure [here](https://boostkpi.com/pricing).
+  - Our AI chat interface now utilizes websockets, significantly improving interaction speeds and overall user experience.
+
+### Improvements:
+- **BigQuery Integration:** Resolved an issue with schema loading in the BigQuery connection, enhancing stability and reliability.
+- **Backend Enhancements:**
+  - Streamlined API paths for more efficient backend operations.
+  - Implemented admin privileges requirement for accessing the api/raw endpoint to enhance security and control.
 
 ## March 2024
 - We celebrated [the launch of Ada, our AI-powered data analyst, on ProductHunt](https://www.producthunt.com/products/ada-by-boostkpi). This launch generated significant interest, garnering over 110 upvotes and achieving a daily ranking of 21 and a weekly ranking of 82.
