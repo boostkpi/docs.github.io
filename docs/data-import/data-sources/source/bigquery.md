@@ -53,7 +53,23 @@ Here are the steps to create a service account and obtain the JSON key:
 
 A file will be downloaded to your computer, which you can upload in your BoostKPI dashboard (*Import* > *Connections* > *Add Connection*)
 
+### Testing the JSON Key and the Permissions
+You can use the *gcloud* and *bq* tool on command line to test the permissions. Use the following steps:
+
+1. gcloud config set project *project_name*
+2. gcloud auth activate-service-account --key-file *path_to_json_key*
+3. bq query --nouse_legacy_sql 'SELECT * from INFORMATION_SCHEMA.TABLES;'  
+
+
 ## Additional Documentation
+If you need to, you can limit BoostKPI's access to certain BigQuery datasets. To do so:
+
+1. Just provide *BigQuery Job User* permission at the project level, as above.
+2. Go to your BigQuery console, click the dataset, click *Sharing* > *Permissions* > *Add principal*. Add the email address of the service account key.
+
+To test whether the key works, just modify the steps above to add the dataset name to the *bq query* command. For example, if BoostKPI just has access to the analytics dataset, run 
+
+bq query --nouse_legacy_sql 'SELECT * from analytics.INFORMATION_SCHEMA.TABLES;'
 
 For more details and advanced configurations, refer to the
 official [BigQuery Documentation](https://cloud.google.com/bigquery/docs).
