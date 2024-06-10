@@ -17,104 +17,41 @@ nav_order: 1
 
 # Importing data into BoostKPI
 
-1. Log in to BoostKPI and select Import along the top.
-2. Create a connection to your existing data by selecting “Connections” and then “Add connection”.
-3. Make sure to test your connection. If the connection fails or times out, make sure BoostKPI’s ip
+1. Log in to BoostKPI and select **Connect** along the top.
+2. Create a connection to your existing data by selecting **Connections** and then **Add connection**.
+3. Make sure to test your connection. If the connection fails or times out, ensure BoostKPI’s ip
    addresses are whitelisted.
-4. Write your query:
-    - For testing and one-off analysis, write a query that returns the exact results you wish to see
-      in BoostKPI.
-    - For a dataset you wish to see continually updated, write a query that includes two timestamps
-      which imports data between those two timestamps. Your query should include data for the
-      earlier timestamp and exclude data for the later timestamp. E.g.,
-    ```sql
-    SELECT date, dimension, kpi FROM table 
-    WHERE date >= "2022-01-01 00:00:00" AND 
-          date < "2022-01-02 00:00:00"
-    ```
-
-5. Save (Ctrl + S) and run your query to check the results.
-6. Select “Import”.
-    - Select your import type “**SCHEDULED**” or “**ONE-OFF**"
-    - Enter an appropriate dataset name.
-    - Select your data’s time granularity. This setting controls how BoostKPI will display your data
-      and for scheduled imports, it controls the import frequency.
-    - For scheduled imports:
-        - Select the timezone your data finalizes in.
-        - Set the offset for scheduling the data import. This should be the time duration it takes
-          the data to finalize. So if your daily data for the prior day finalizes at 1:00 am, set an
-          offset of 1 hour.
-        - Verify that the template query was created correctly. BoostKPI will replace
-          **{{start_time}}** and **{{end_time}}** with new timestamps each time we import new data.
-    - For each column of your query's results, pick date, timestamp, dimension, or KPI. KPIs should
-      all be numeric and you should only have one date/timestamp type. Datasets in BoostKPI must
-      have at least one dimension and at least one KPI.
-    - Click import!
-    - Based on the query and your selections, BoostKPI will create a new dataset and begin a data
-      import.
-        - For one-off imports, your query will be executed as is and the results will be imported
-          into BoostKPI.
-        - For scheduled queries, timestamps will be substituted into your query to backfill an
-          initial time range based on the data granularity. Then going forward your query will be
-          executed according to a schedule based on the data granularity to import new data into
-          BoostKPI with new timestamps substituted each time.
-    - When the data is finished importing, you will receive an email letting you know that your
-      dataset is ready.
+4. Create a table or view containing the data you would like to use in BoostKPI.
+5. Click the **Connect data** button.
+  - Select your schema and table name.
+  - Enter an appropriate human-readable dataset name. This can be changed later.
+  - Select your dataset's data granularity. This represents the lowest time granularity BoostKPI will 
+    use when analyzing your data and should match the level of time column aggregation in the data.
+  - Click **Load**. This executes a query on your dataset to load column data.
+  - BoostKPI will analyze the results of the query and populate a column schema.
+  - For each column of the query's results, pick date, timestamp, dimension, or KPI. KPIs should
+    all be numeric and you should only have one date/timestamp column. Datasets in BoostKPI must
+    have at least one dimension and at least one KPI.
+  - Click **Create**!
+6. BoostKPI will create a new dataset and after a few seconds you will be redirected to the BoostKPI dashboard.
 
 ## Importing tips
 
-1. For scheduled imports, your query should contain a filter on your date/timestamp column that has
-   exactly two timestamps strings of the form “**YYYY-MM-DD HH:mm:ss**”.
-
-   When importing data, BoostKPI dynamically updates your query by replacing these timestamps
-   strings. When importing the example query, BoostKPI first saves a template query by replacing the
-   two timestamp strings:
-   ```sql
-   SELECT date, dimension, kpi 
-   FROM table 
-   WHERE date >= "{{startTime}}" AND date < "{{endTime}}"
-   ```
-
-   And then fills in the template when importing the data. For example, when importing the data for
-   January 2nd, 2022, BoostKPI executes:
-   ```sql
-   SELECT date, dimension, kpi 
-   FROM table 
-   WHERE date >= "2022-01-02 00:00:00" AND date < "2022-01-03 00:00:00"
-   ```
-
-   Without exactly two timestamps strings, BoostKPI will be unable to properly template and schedule
-   your query.
-
-2. Make sure your query is inclusive on the start timestamps and exclusive on the end timestamps.
-
-   BoostKPI runs an updated version of your query on a schedule. If the endpoints of the scheduled
-   queries overlap, this can result in duplicate data being uploaded into BoostKPI. As an example,
-   if you imported the query:
-   ```sql
-   SELECT date, dimension, kpi 
-   FROM table 
-   WHERE date BETWEEN "2022-01-01 00:00:00" AND "2022-01-02 00:00:00"
-   ```
-
-   Then because BETWEEN is inclusive, data for January 2nd, 2022 would be imported when BoostKPI
-   attempts to import the data for January 1st, 2022.
-
-3. (**RedShift**) When importing date columns from redshift, please use:
+1. (**RedShift**) When importing date columns from redshift, please use:
 
    _to_char(date(original_date), 'YYYY-MM-DD') as date_
 
    Redshift’s default date output format causes conflicts with our database’s expected date import
    format.
 
-4. Import the most granular data you can along your time and dimension columns. BoostKPI can then
-   aggregate it either during visualization or when sending out anomalies.
+2. Import the most granular data you can along your time and dimension columns. BoostKPI can then
+   perform further aggregation either during visualization or when sending out anomaly alerts.
 
 # Data modeling tips
 
 ## Modeling multiple date columns
 
-If you have multiple dates or timestamps in the columns of your query results, only set your primary
+If you have multiple dates or timestamps in the columns of your table, only set your primary
 time column to Date/Timestamp in the import selector and set the other time columns to Dimension.
 
 BoostKPI uses a primary time column when displaying time series, comparing data across time, and
@@ -184,10 +121,9 @@ the BoostKPI dashboard, set up AOV as revenue/num_orders.
 
 # After importing
 
-After importing a new dataset, BoostKPI will begin an automatic backfill of your data. When the
-backfill is complete, you will receive an email notification. While the data is importing, you can
-finish setting up your dataset on the dataset schema page. To navigate there, select your dataset on
-the BoostKPI dashboard and select the “Schemas” tab along the top row.
+After importing a new dataset, you can finish setting up your dataset on the dataset schema page. 
+To navigate there, select your dataset on the BoostKPI dashboard and select the **Schemas** tab along 
+the top row.
 
 ## Add derived KPIs
 
@@ -220,6 +156,6 @@ A dataset can be deleted from the BoostKPI dashboard by selecting “Edit datase
 side of the Schemas page. At the bottom of the edit menu, type “DELETE” into the text box and then
 click the delete button.
 
-Note that this only performs a soft delete of the data. If a hard delete of the data is required,
+Note that this only performs a soft delete of the dataset. If a hard delete of the BoostKPI metadata is required,
 e.g., due to legal compliance reasons, please contact amit@boostkpi.com.
 

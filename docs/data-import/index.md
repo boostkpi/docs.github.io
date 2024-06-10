@@ -38,66 +38,44 @@ BoostKPI can connect to many different data sources that support a SQL interface
 - Trino
 - Vertica
 
-We just require read only access to the right table in the data source. For each integration, we use SQL to access the underlying data.
+We only require read only access to the right table or view in the data source. For each integration, we use SQL queries to access the underlying data.
 
 ![Data sources list: image](../images/data-sources-list.png)
 
 ## IP address white-listing
 
-Please whitelist the following 4 IP addresses:
+Please whitelist the following 4 IP addresses so that BoostKPI can connect and run queries:
 - 34.73.45.207
 - 34.75.196.63
 - 35.231.217.127
 - 35.237.13.9
 
-## Scheduled vs. one-off imports
+## Creating a dataset
 
-A “**one-off**” import is for data that need not be re-pulled. For example, if you want to do an ad-hoc
-analysis on the last month's data, you can use “one-off” to pull the result of the sql query.
-
-A “**scheduled**” import is for data that is periodically updated, say every hour or every day. BoostKPI
-can pull such data at scheduled intervals. It also automatically updates the date range to pull the
-most recent data. See [Importing data into BoostKPI](/docs/data-import/guide/#importing-data-into-boostkpi) for details.
-
-Many of our users start with one-off imports to do some ad-hoc analysis. They then iteratively add or
-remove dimensions and repeat the analysis. Once they are happy with the data-set, they can set up a scheduled import.
+Creating a dataset in BoostKPI is as simple as first creating a connection to your datasource and then selecting which table or view you would like to import. See [Importing data into BoostKPI](/docs/data-import/guide/#importing-data-into-boostkpi) for details.
 
 ## CSV file import
 
-BoostKPI also supports one-off import of CSV file. To import the file, go to Import page -> Upload CSV.
+BoostKPI also supports one-off imports of CSV file. To import a file, go to the **Connect** page and select **Upload CSV** at the top.
 
 ![Upload CSV: image](../images/upload-csv.png)
 
 ### Types of supported csv imports
 
-BoostKPI supports two types of csv imports: a time-series csv and a lookup csv.
+BoostKPI supports two types of csv imports: a timeseries csv and a lookup csv.
 
-A time-series csv is one that contains at least one time-series column (date or timestamp) and has one or
-more KPIs grouped by one or more dimension values and the time bucket. For example, a csv file containing
-the hourly breakdown of revenue broken down by the brand, country, and platform.
+A timeseries csv is one that contains at least one timeseries column (date or timestamp) and has one or
+more KPIs aggregated across one or more dimension values and the time column. For example, a csv file containing
+the hourly revenue and orders data broken down by brand, country, and platform dimensions could be imported into a BoostKPI dataset.
 
-A lookup csv is one where existing dimension values are mapped to a new dimension value. For example,
-a csv file containing a mapping from a country to a continent. This csv file results in a lookup
-dataset, which can then be joined with an existing time-series dataset.
+A lookup csv is a csv file whose rows define a dimension lookup table that maps 
+existing dimension values to new dimension values. BoostKPI joins this csv file 
+with an existing time-series dataset to augment the dataset with a new dimension 
+based on the dimension value mapping. For example, a csv file containing a mapping 
+from a country to a continent could be imported to augment an existing dataset 
+that countains country as a dimension with a new continent dimension.
 
 ## Import process
 
 The document [Importing data into BoostKPI](/docs/data-import/guide/#importing-data-into-boostkpi)
 provides more information about the import process.
-
-## Refreshing already imported data (scheduled)
-
-```
-Q: For scheduled imports, can BoostKPI refresh old data in addition to pulling new data?
-For example, I’m importing Facebook Ads spend and conversions.
-The conversion data does not finalize until 7 days later.
-```
-
-Yes, you can configure your data import to refresh a previous time range on the "Import diagnostics" tab. This tab is currently only available *after* creating the import.
-
-1. Navigate to the "Dashboard" at the top of the page and then select the dataset you wish to update in the left hand column.
-2. Select "Import diagnostics" and then to the right click the "Edit import" button.
-3. Under "Refresh data on import" enter the number of timepoints you wish to update on each import. E.g., in the Facebook Ads example, enter 7 so that the last seven days of data are refreshed on each import.
-4. Click the "Update" button and a success message should briefly display at the bottom of the screen.
-
-![Edit import menu](../images/edit-import-menu.png)
