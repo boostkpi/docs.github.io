@@ -45,7 +45,7 @@ nav_order: 1
    format.
 
 2. Import the most granular data you can along your time and dimension columns. BoostKPI can then
-   iperform further aggregation either during visualization or when sending out anomaly alerts.
+   perform further aggregation either during visualization or when sending out anomaly alerts.
 
 # Data modeling tips
 
