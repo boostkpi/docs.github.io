@@ -14,6 +14,25 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## May 2024
+
+### New Features:
+- 🚀 Game-Changing Zero-Copy Feature! BoostKPI now runs directly on your cloud data warehouse without any data copying. Experience enhanced security, privacy, and governance, plus lightning-fast POCs and deployment! Currently supporting BigQuery, Redshift, ClickHouse, Snowflake, Databricks, and DuckDB.
+- **DuckDB and Iceberg Support**: Expanding our compatibility to give you more flexibility and power.
+
+### UI Improvements
+- **UI Enhancements**: Sleeker, more intuitive interface for a seamless user experience.
+- **Pivot First Load Fix**: No more issues when the selected dimension isn't set.
+- **Anomaly Row Dataset Name Handling Update**: Improved accuracy in dataset names.
+- **Pivot Heatmap Fix**: Heatmaps now work perfectly even when data is missing.
+- **Edit Modal Enhancement**: Easily change dataset granularity.
+- **External Links from Root Cause Page**: Navigate seamlessly to external resources.
+- **Visual Consistency**: Baseline text handling and drawer visuals now match the rest of the site for a cohesive look.
+
+### Backend Upgrades
+- **40% Cloud Cost Reduction**: Significant savings on your cloud expenses.
+- **Faster Detection Runs**: Reduced waiting time, speeding up your insights.
+
 ## April 2024
 
 ### New Features and Enhancements:
