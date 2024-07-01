@@ -31,6 +31,7 @@ description: BoostKPI documentation site
         - [Related KPIs](/docs/rootcause/chart-investigation/#related-kpis)
         - [Data filters](/docs/rootcause/chart-investigation/#data-filters)
         - [Merging charts into one](/docs/rootcause/chart-investigation/#merging-charts-into-one)
+    - [AI-powered chat investigation](/docs/rootcause/ai-chat-investigation/)
 
 - Dataset, KPI, Views and Snapshots
     - [What is a dataset / KPI?](/docs/basics/#what-is-a-dataset--kpi)
