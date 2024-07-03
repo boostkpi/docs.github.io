@@ -35,4 +35,4 @@ Some of BoostKPI's chats operate on a notion of a chat workspace. A workspace co
 4. Select which tables you want to include from your data warehouse.
 5. Enter a set of instructions that describe the datasets and tables you have used in the workspace.
 
-![Workspace setup](../../images/workspace-setup.png)
+![Workspace setup](../../../images/workspace-setup.png)
