@@ -17,33 +17,33 @@ nav_order: 99
 ## June 2024
 
 ### New Features
-- ADA (AI Data Analyst) Enhancements: Added support for workspaces and custom
+- **ADA (AI Data Analyst) Enhancements**: Added support for workspaces and custom
   prompts, so that the AI Data Analyst can be personalized.  Improved AI chat
 functionalities to include more detailed workspace resources and better error
 handling.
-- Data Management: Introduced a new feature for downloading CSVs from
+- **Data Management**: Introduced a new feature for downloading CSVs from
   drill-down analysis, ensuring data portability and user convenience.
 
 ### UI Updates
-- General Improvements: Added a help link to the "no workspace" message,
+- **General Improvements**: Added a help link to the "no workspace" message,
   enhancing user guidance.  Updated AI chat button to improve interaction in
 specific modules. Redesigned baseline text handling and updated drawer visuals
 to maintain consistency across the website.
-- Workspace Management: Implemented numerous fixes and updates in the chat
+- **Workspace Management**: Implemented numerous fixes and updates in the chat
   workspace frontend, improving UX and data handling.  Separated imported
 datasets from live ones using distinct icons to enhance data organization.
 Disabled the old import button when external connections are allowed,
 streamlining the interface.
 
 ### Backend Updates
-- Dependency Updates: Updated various libraries and dependencies across the
+- **Dependency Updates**: Updated various libraries and dependencies across the
   system to enhance performance and security, including pymysql,
 io.github.classgraph, ws, @azure/msal-node, mssql, braces, @grpc/grpc-js,
 org.apache.avro, com.google.code.gson, and mysql2.
-- SQL and Query Handling: Standardized SQL query labels and removed redundant
+- **SQL and Query Handling**: Standardized SQL query labels and removed redundant
   properties to optimize query performance.  Addressed issues with SQL BETWEEN
 clause and ensured consistent handling across different datasets.
-- System Performance: Fixed issues with parsing in the tool picker to prevent
+- **System Performance**: Fixed issues with parsing in the tool picker to prevent
   errors and improve system reliability.  Made critical updates to handle
 undefined values and improve the display of charts and data ranges.
 
