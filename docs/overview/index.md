@@ -33,7 +33,7 @@ strict governance and privacy standards.
 interactions.
 - **Birdseye Visualizations**: Offers comprehensive visual tools like Waterfall
   charts, heatmaps, pivots, and drilldown capabilities for detailed root cause
-analysis. It also supports for saving, sharing and scheduling regular snapshots
+analysis. It also supports saving, sharing and scheduling regular snapshots
 of analyses.
 - **Personalized Alerts**: Delivers customized alerts through email, Slack,
   webhook, or text. Users can give feedback on these alerts to refine their
