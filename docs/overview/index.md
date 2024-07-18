@@ -22,20 +22,20 @@ analysis accessible to non-technical users, enabling them to derive insights
 through simple natural language queries. Already in use by numerous leading
 public companies and fast-growing startups, BoostKPI offers:
 
-- Quick Integration: Effortlessly connect with major cloud data warehouses like
+- **Quick Integration**: Effortlessly connect with major cloud data warehouses like
   Google BigQuery, Amazon RedShift, Snowflake, and Databricks, or SQL databases
-such as Postgres, MySQL, and Clickhouse without data duplication, maintaining
+such as Postgres, MySQL, and ClickHouse without data duplication, maintaining
 strict governance and privacy standards.
-- Intelligent and Context-Aware Workspaces: Create customized environments
-  tailored to meet the unique needs of each user in the organization. 
-- Continuous Improvement: Our AI data analyst continuously learns from every
+- **Intelligent and Context-Aware Workspaces**: Create customized environments
+  tailored to meet the unique needs of each user in the organization.
+- **Continuous Improvement**: Our AI data analyst continuously learns from every
   interaction, continuously enhancing its analytical capabilities.
-interactions. 
-- Birdseye Visualizations: Offers comprehensive visual tools like Waterfall
+interactions.
+- **Birdseye Visualizations**: Offers comprehensive visual tools like Waterfall
   charts, heatmaps, pivots, and drilldown capabilities for detailed root cause
 analysis. It also supports for saving, sharing and scheduling regular snapshots
 of analyses.
-- Personalized Alerts: Delivers customized alerts through email, Slack,
+- **Personalized Alerts**: Delivers customized alerts through email, Slack,
   webhook, or text. Users can give feedback on these alerts to refine their
 relevance and accuracy.
 
@@ -49,14 +49,14 @@ Use this tab to customize and access your "dashboard-views", investigate the roo
 Use this tab to interact with ADA, our AI Data Analyst. Choose your workspace to access your [own personalized AI analyst](https://blog.boostkpi.com/ai-data-analyst/).  
 ##### Alerts
 Use this tab to set up granular alerts that combine unsupervised learning with business rules. The anomalies resulting from these alerts can be routed intelligently based on both the root cause as well as the magnitude of the deviation. The alerts can also be sent via slack.
-##### Anomalies 
+##### Anomalies
 Use this tab to view anomalies that resulted from any of your configured alerts. These anomalies, besides being routed to users or to slack/teams, can also be viewed on the dashboard.
 ##### Connect
 Use this tab to connect to the cloud data warehouse.
 
 ![Dashboard navigation bar](../../images/nav_bar.png)
 
-### Overview 
+### Overview
 
 [Learn more](https://blog.boostkpi.com/ai-data-analyst/) about our AI Data
 Analyst and how it uses
