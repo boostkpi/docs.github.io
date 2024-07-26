@@ -2,7 +2,7 @@
 layout: default
 title: API (experimental)
 description: Explore our Experimental API page for guidance on fetching anomalies, drilldown data, and overview or heatmap data, along with essential authentication steps for efficient API usage
-nav_order: 6
+nav_order: 8
 ---
 
 # API **(EXPERIMENTAL)**

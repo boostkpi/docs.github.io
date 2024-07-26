@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Ada user guide
+title: External Ada guide
 description: Navigate through FAQs on how our GPT Ada's functionality and usage
 has_children: true
-nav_order: 4
+nav_order: 6
 ---
 
 # Ada user guide
