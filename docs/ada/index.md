@@ -1,12 +1,11 @@
 ---
 layout: default
 title: ADA (AI Data Analyst)
-description: Learn more about ADA
-has_children: true
+description: Learn more about ADA, your personalized AI Data Analyst
 nav_order: 5
 ---
 
-# ADA
+# ADA: Your Personalized AI Data Analyst
 {: .no_toc }
 
 ## Table of contents
@@ -15,7 +14,7 @@ nav_order: 5
 1. TOC
 {:toc}
 
-## ADA: Your Personalized AI Data Analyst
+## Overview
 
 With ADA, you have a personal AI that analyzes data just like a human analyst
 would. You can ask ADA any question using plain language—from general overviews
@@ -56,7 +55,6 @@ functional roles within your organization. When configuring a workspace, you
 can include the relevant warehouse tables, BoostKPI datasets, and any other
 custom instructions you need.
 
-
 **Key Features:**
 - **SQL Syntax Recognition:** ADA automatically understands and interacts with the SQL language used by your data warehouse.
 - **Metadata Utilization:** If your warehouse tables include metadata, like column descriptions, ADA seamlessly incorporates this information for more accurate responses.
@@ -75,10 +73,3 @@ continuously learn and improve.
 
 Additionally, you can conveniently **share**, **rename**, or **delete**
 conversations by clicking the respective options.
-
-
- Here, you can look back at past interactions. Soon, you'll also be
-able to rate ADA's responses, helping it to learn and improve continuously.
-
-You can easily click on options to share, rename, and delete the
-conversation. 
