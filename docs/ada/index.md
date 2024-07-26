@@ -60,7 +60,7 @@ custom instructions you need.
 - **Metadata Utilization:** If your warehouse tables include metadata, like column descriptions, ADA seamlessly incorporates this information for more accurate responses.
 - **Custom Instructions:** You can add any specific details to guide ADA. For example, explain what a column name represents (e.g., **oid** means order number), define possible values for a column (e.g., **cleared_customs** can be **YES** or **NO**), specify character case rules (e.g., values are always lowercase), describe derived KPIs (e.g., **AOV** is the ratio of total revenue to total orders), and clarify terms (e.g., **FY2022** runs from April 1, 2022, to March 31, 2023).
 
-For a demo of workspaces, [watch our demo](https://www.linkedin.com/posts/amitmanjhi_adtech-demo-activity-7220220876858773504-6ZcE?utm_source=share&utm_medium=member_desktop).
+[Learn more about workspaces in this post.](https://www.linkedin.com/posts/amitmanjhi_adtech-demo-activity-7220220876858773504-6ZcE?utm_source=share&utm_medium=member_desktop).
 
 To create/edit a workspace, simply click the **"Workspaces"** button on the right side of the chat interface.
 ![Workspace setup](../../../images/workspace-setup.png)
