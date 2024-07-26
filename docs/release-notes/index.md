@@ -15,7 +15,6 @@ nav_order: 99
 {:toc}
 
 ## June 2024
-
 ### New Features
 - **ADA (AI Data Analyst) Enhancements**: Added support for workspaces and custom
   prompts, so that the AI Data Analyst can be personalized.  Improved AI chat
@@ -24,7 +23,7 @@ handling.
 - **Data Management**: Introduced a new feature for downloading CSVs from
   drill-down analysis, ensuring data portability and user convenience.
 
-### UI Updates
+### UI Improvements 
 - **General Improvements**: Added a help link to the "no workspace" message,
   enhancing user guidance.  Updated AI chat button to improve interaction in
 specific modules. Redesigned baseline text handling and updated drawer visuals
@@ -49,8 +48,7 @@ undefined values and improve the display of charts and data ranges.
 
 
 ## May 2024
-
-### New Features:
+### New Features
 - 🚀 Game-Changing Zero-Copy Feature! BoostKPI now runs directly on your cloud data warehouse without any data copying. Experience enhanced security, privacy, and governance, plus lightning-fast POCs and deployment! Currently supporting BigQuery, Redshift, ClickHouse, Snowflake, Databricks, and DuckDB.
 - **DuckDB and Iceberg Support**: Expanding our compatibility to give you more flexibility and power.
 
@@ -63,13 +61,12 @@ undefined values and improve the display of charts and data ranges.
 - **External Links from Root Cause Page**: Navigate seamlessly to external resources.
 - **Visual Consistency**: Baseline text handling and drawer visuals now match the rest of the site for a cohesive look.
 
-### Backend Upgrades
+### Backend Updates
 - **40% Cloud Cost Reduction**: Significant savings on your cloud expenses.
 - **Faster Detection Runs**: Reduced waiting time, speeding up your insights.
 
 ## April 2024
-
-### New Features and Enhancements:
+### New Features
 - **Google Cloud Certifications:** BoostKPI is now Google Cloud Ready for BigQuery, AlloyDB, and CloudSQL! For more details on what this means for you, check out our [partners page](https://boostkpi.com/partners).
 - **AI Chat Prototype:** We've prototyped the first version of our AI Chat that operates directly on the data warehouse, enabling insights without the need to create separate BoostKPI datasets.
 - **UI Updates:**
@@ -77,7 +74,7 @@ undefined values and improve the display of charts and data ranges.
   - Reworked Pricing page for clearer, more accessible information. See the new pricing structure [here](https://boostkpi.com/pricing).
   - Our AI chat interface now utilizes websockets, significantly improving interaction speeds and overall user experience.
 
-### Improvements:
+### Improvements
 - **BigQuery Integration:** Resolved an issue with schema loading in the BigQuery connection, enhancing stability and reliability.
 - **Backend Enhancements:**
   - Streamlined API paths for more efficient backend operations.
