@@ -39,7 +39,7 @@ To integrate CrateDB with our system, follow these steps:
 ## Additional Documentation
 
 For more details and advanced configurations, refer to the
-official [CrateDB Documentation](https://docs.crate.io/).
+official [CrateDB Documentation](https://cratedb.com/docs/guide/home/).
 
 ## Support
 
