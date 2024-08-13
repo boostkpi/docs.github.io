@@ -14,6 +14,20 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## July 2024
+### Features
+- **AI Data Analyst Enhancements**: Added support for stored SQL queries in workspace as a way to provide more context. Improved function logging in Python and backend for better traceability and debugging.
+
+### UI Updates
+- **General Improvements**: Added loading animations to the workspace editor to enhance user feedback during data loading processes. Updated FAQ history list styling and maximized width for FAQ/Alert chat for a more streamlined user experience. Introduced an 'unsaved changes' notification to alert users to save modifications, preventing data loss.
+- **Workspace Management**: Implemented enhancements in the SQL editor within the AI chat, including fixes for query appending and execution feedback. Updated workspace UI components, such as adjusting the SQL editor width and improving icon button sizing.
+
+### Backend Updates
+- **Functionality and Performance Enhancements**: Enhanced the logging of functions within the backend and Python environments to include more detailed and structured logs.
+Removed unnecessary try-catch blocks for cleaner code and improved error handling on Google Cloud Functions.
+- **System Enhancements**: Fixed issues with message formatting and updated 'function' naming conventions for consistency and clarity.
+
+
 ## June 2024
 ### New Features
 - **ADA (AI Data Analyst) Enhancements**: Added support for workspaces and custom
@@ -23,7 +37,7 @@ handling.
 - **Data Management**: Introduced a new feature for downloading CSVs from
   drill-down analysis, ensuring data portability and user convenience.
 
-### UI Improvements 
+### UI Improvements
 - **General Improvements**: Added a help link to the "no workspace" message,
   enhancing user guidance.  Updated AI chat button to improve interaction in
 specific modules. Redesigned baseline text handling and updated drawer visuals
@@ -102,18 +116,18 @@ undefined values and improve the display of charts and data ranges.
 ## December 2023
 - Improved the UX by re-implementing the dashboard in react. The dashboard app now flickers less and renders quicker.
 - Improved the drilldown results for non-additive KPIs (like CPC, AOV, Conversion rates).
- 
+
 
 ## November 2023
 - In the KPI breakdown tab, you can now roll up the results by a coarser time granularity. For example, you can get daily or weekly KPIs for hourly dataset.
-- The dimension heatmap is now more useful. It will now show a dimension row even if there is an include/exclude filter on it. 
+- The dimension heatmap is now more useful. It will now show a dimension row even if there is an include/exclude filter on it.
 - Improved the chatbot interface by adding a list of suggested questions. We used an LLM to generate this list.
 - Made SEO updates on the [website](https://boostkpi.com) (added solution pages, comparison pages, data sources pages) and the [docs site](https://docs.boostkpi.com)
 
 
 ## October 2023
-- Renamed pivot heatmap to KPI heatmap. Added support for derived KPIs and dimensions with lots of values. [Blog post.](https://blog.boostkpi.com/KPI-Heatmap/) [Video.](https://www.youtube.com/watch?v=18SxeqDdXXE) 
-- Added support for history and internal tools to the chat interface. Whitelisted users can query their data as well as drilldown on changes, using natural language. We leverage LLMs as orchestrators. [Blog post.](https://blog.boostkpi.com/orchestration-llms/) [Video.](https://www.youtube.com/watch?v=KVP3-WwN6Dc) 
+- Renamed pivot heatmap to KPI heatmap. Added support for derived KPIs and dimensions with lots of values. [Blog post.](https://blog.boostkpi.com/KPI-Heatmap/) [Video.](https://www.youtube.com/watch?v=18SxeqDdXXE)
+- Added support for history and internal tools to the chat interface. Whitelisted users can query their data as well as drilldown on changes, using natural language. We leverage LLMs as orchestrators. [Blog post.](https://blog.boostkpi.com/orchestration-llms/) [Video.](https://www.youtube.com/watch?v=KVP3-WwN6Dc)
 
 ## September 2023
 - Deployed a pivot heatmap feature that works for additive KPIs.
