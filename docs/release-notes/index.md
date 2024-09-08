@@ -14,6 +14,20 @@ nav_order: 99
 1. TOC
 {:toc}
 
+## August 2024
+### Features
+- **Google Authentication**: Users from enterprises using Google Workspace can now sign in to BoostKPI with their Google accounts, eliminating the need for a BoostKPI-specific password.
+- **ADA Updates**: Users can now view all conversations within an enterprise, not just the ones they created.
+- **Key-pair Authentication for Snowflake**: Key-pair authentication is now supported, allowing Snowflake accounts with two-factor authentication (2FA) to connect with BoostKPI.
+
+### UI Updates
+- **General Improvements**: CSV uploads now support blank cells and cells containing new lines.
+- **ADA Updates**: Added the ability to duplicate a workspace and updated CSS styles in the FAQ modal.
+
+## Backend Updates
+- **ADA Conversation Management**: A copy of a conversation will be automatically created if a user wishes to continue in a conversation that they did not originally start.
+
+
 ## July 2024
 ### Features
 - **AI Data Analyst Enhancements**: Added support for stored SQL queries in workspace as a way to provide more context. Improved function logging in Python and backend for better traceability and debugging.
