@@ -24,7 +24,7 @@ nav_order: 99
 - **General Improvements**: CSV uploads now support blank cells and cells containing new lines.
 - **ADA Updates**: Added the ability to duplicate a workspace and updated CSS styles in the FAQ modal.
 
-## Backend Updates
+### Backend Updates
 - **ADA Conversation Management**: A copy of a conversation will be automatically created if a user wishes to continue in a conversation that they did not originally start.
 
 
